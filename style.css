@@ -3,17 +3,24 @@
     margin: 0;
     padding: 0;
 }
+h1, h2 {
+    font-family: 'Shantell Sans', sans-serif;
+    font-style: italic;
+}
+
 html {
-    
+    font-weight: 500;
+    letter-spacing: 1.2px;
 }
 body {
     max-width: 1280px; 
     width: 100%;
     margin: 0 auto;
+    font-family: 'Montserrat', san-serif;
 }
 header {
     width: 100%;
-    height: 75px;
+    height: 90px;
     background-color: #3B82F6;
     display: flex;
     flex-direction: row;
@@ -21,34 +28,65 @@ header {
 
 }
 .logo {
-    margin: 5px;
+    margin: 10px;
     width: 70px;
     height: 70px;
 }
 .navbar {
-    width: 100%;
+    margin: 0 auto;
 }
 .list-navigation {
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     gap: 50px;
+
+}
+.nav-link {
+    min-width: 100px;
 }
 .nav-link > a{
     display: block;
-    height: 75px;
-    line-height: 75px;
+    height: 90px;
+    line-height: 90px;
+    text-decoration: none;
+    color: #F3F4F6;
+    font-size: 1.25em;
     &:hover {
-
+        color: #F97316;
+        transform: scale(1.05);
     }
 }
 .signup {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    align-items: center;
 }
 .signup-link {
+    width: 130px;
+    height: 30px;
+    background-color: #F97316;
+    margin: 5px;
+    border-radius: 10px;
+    line-height: 30px;
+    text-align: center;
+    color: #1E3A8A;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.295);
+    &:hover {
+        background-color: #eb7018;
+        box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.295);
+    }
 }
 .find {
+    height: 400px;
+    background-color: #3B82F6;
 }
+
 .section__hot-vacancies {
 }
 .container__carousel {
