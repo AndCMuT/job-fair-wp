@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,400;0,700;1,400&family=Kodchasan:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <title>Job-fair</title>
 </head>
 <body>
@@ -24,25 +24,36 @@
         </div>
     </header>
     <main>
-        <section class="find">
+        <section class="section-search">
             <h1>Найди работу мечты</h1>
-            <form action="">
-                <input type="text" placeholder="Профессия">
-                <input type="text" placeholder="Локация">
-                <input type="text" placeholder="Специализация">
-                <button type="button">Найти</button>
+            <form class="form-search" action="">
+                <input class="input-search" type="text" placeholder="Профессия">
+                <input class="input-search" type="text" placeholder="Локация">
+                <input class="input-search" type="text" placeholder="Специализация">
+                <button class="find-btn" type="button">Найти</button>
             </form>
         </section>
         <section class="section__hot-vacancies">
             <h2>Горячие вакансии</h2>
             <div class="container__carousel">
+                <!-- Vacancy 1 -->
                 <div class="hot-vacancy">
                     <h3>Название вакансии</h3>
                     <div class="container__info-hot-company-fork">
-                        <h4>Компания</h4>
+                        <h4>Mann, Renner and Bergnaum</h4>
                         <p>170 000 руб.</p>
                     </div>
-                    <p class="about-work">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem blanditiis, accusantium iste maxime quae incidunt exercitationem recusandae repellat error, ullam dolores tempora quas sunt ipsam odit pariatur tenetur unde nobis.</p>
+                    <p class="about-work">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium iste maxime quae incidunt exercitationem recusandae repellat error, ullam dolores ipsam odit pariatur tenetur unde nobis.</p>
+                    <button class="apply" type="button">Откликнуться</button>
+                </div>
+                <!-- Vacancy 2 -->
+                    <div class="hot-vacancy">
+                    <h3>Название вакансии</h3>
+                    <div class="container__info-hot-company-fork">
+                        <h4>Swaniawski - Gleason</h4>
+                        <p>170 000 руб.</p>
+                    </div>
+                    <p class="about-work">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium iste maxime quae incidunt exercitationem recusandae repellat error, ullam dolores ipsam odit pariatur tenetur unde nobis.</p>
                     <button class="apply" type="button">Откликнуться</button>
                 </div>
             </div>
