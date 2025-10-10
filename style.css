@@ -28,6 +28,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border: none;
 
 }
 .logo {
@@ -102,6 +103,7 @@ header {
     justify-content: start;
     align-items: center;
     padding-top: 100px;
+    border: none;
 }
 
 .section-search > h1 {
@@ -215,7 +217,7 @@ header {
 
 .vacancies {
     width: 100%;
-    margin: 0 15px;
+    margin: 0 auto;
 }
 .vacancy {
     width: 100%;
@@ -254,5 +256,20 @@ header {
 .container-btn {
     width: 15%;
 }
+/* =============== footer =============== */
+footer {
+    width: 100%;
+    background-color: #1E3A8A;
+    height: 100px;
+    margin-top: 90px;
+}
+.footer-logo {
+    margin-left: 20px;
+}
 .container-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
 }
