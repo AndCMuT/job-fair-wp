@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <div class="logo"><img src="/img/logo.png" alt="logo"></div>
+        <div class="logo"><?php the_custom_logo() ?></div>
         <div class="navbar">
             <ul class="list-navigation">
                 <li class="nav-link"><a href="index.html">Главная</a></li>
