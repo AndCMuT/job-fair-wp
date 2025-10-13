@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <title>Job-fair</title>
-</head>
-<body>
-    <header>
-        <div class="logo"><img src="/img/logo.png" alt="logo"></div>
-        <div class="navbar">
-            <ul class="list-navigation">
-                <li class="nav-link"><a href="index.html">Главная</a></li>
-                <li class="nav-link"><a href="">О нас</a></li>
-                <li class="nav-link"><a href="">Новости</a></li>
-                <li class="nav-link"><a href="">Контакты</a></li>
-            </ul>
-        </div>
-        <div class="signup">
-            <a href="" class="signup-link">Вход</a>
-            <a href="" class="signup-link">Регистрация</a>
-        </div>
-    </header>
+<?php get_header(); ?>
     <main>
         <section class="section-search">
             <h1>Найди работу мечты</h1>
@@ -125,19 +101,4 @@
                 </div>
             </div>
         </section>
-        <footer>
-            <div class="container-footer">
-                <div class="footer-logo"><img src="/img/Job-Fair.png" alt="logo2"></div>
-                <div class="navbar">
-                    <ul class="list-navigation">
-                        <li class="nav-link"><a href="">Главная</a></li>
-                        <li class="nav-link"><a href="">О нас</a></li>
-                        <li class="nav-link"><a href="">Новости</a></li>
-                        <li class="nav-link"><a href="">Контакты</a></li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
-    </main>
-</body>
-</html>
+<?php get_footer(); ?>
