@@ -1,0 +1,669 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Jobclub\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-18 13:45+0000\n"
+"PO-Revision-Date: 2025-04-18 13:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.2; wp-6.7.2\n"
+"X-Domain: jobclub"
+
+#: functions.php:47
+msgid "Primary"
+msgstr ""
+
+#: functions.php:122
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:124
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:133
+msgid "Jobclub Footer Widget"
+msgstr ""
+
+#: functions.php:212
+msgctxt "Bricolage Grotesque font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:308
+msgid "Add Footer Widget"
+msgstr ""
+
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:24
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:33
+msgid "Most Used Categories"
+msgstr ""
+
+#. %1$s: smiley
+#: 404.php:51
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#. %s: search query.
+#: search.php:24
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: header.php:37
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:120 header.php:228 header.php:360
+msgid "Close Menu"
+msgstr ""
+
+#: footer.php:51
+msgid "Powered By WordPress"
+msgstr ""
+
+#: footer.php:52
+msgid " | "
+msgstr ""
+
+#. Name of the theme
+#: footer.php:53
+msgid "Jobclub"
+msgstr ""
+
+#: single.php:31 single.php:63
+msgid "Previous:"
+msgstr ""
+
+#: single.php:32 single.php:64
+msgid "Next:"
+msgstr ""
+
+#: inc/customizer.php:40
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer.php:51
+msgid "Social Links"
+msgstr ""
+
+#: inc/customizer.php:52
+msgid "More Social Links are available in Premium Version"
+msgstr ""
+
+#: inc/customizer.php:66
+msgid "Facebook Link"
+msgstr ""
+
+#: inc/customizer.php:81
+msgid "Instagram Link"
+msgstr ""
+
+#: inc/customizer.php:96
+msgid "Twiiter X Link"
+msgstr ""
+
+#: inc/customizer.php:107
+msgid "Single Article/Blog Page"
+msgstr ""
+
+#: inc/customizer.php:124
+msgid "Show Sidebar in Single Article?"
+msgstr ""
+
+#: inc/customizer.php:137
+msgid "Header Section"
+msgstr ""
+
+#: inc/customizer.php:154
+msgid "Choose Header Layout"
+msgstr ""
+
+#: inc/customizer.php:156
+msgid "Default Header"
+msgstr ""
+
+#: inc/customizer.php:157
+msgid "Centered Layout"
+msgstr ""
+
+#: inc/customizer.php:158
+msgid "Bottom Menu Layout"
+msgstr ""
+
+#: inc/customizer.php:174
+msgid "Dark Header?"
+msgstr ""
+
+#: inc/customizer.php:192
+msgid "Full Width?"
+msgstr ""
+
+#: inc/customizer.php:205
+msgid "Footer Option"
+msgstr ""
+
+#: inc/customizer.php:206
+msgid "Copyright text can be changed in Premium Version"
+msgstr ""
+
+#: inc/customizer.php:223
+msgid "Show Widgets"
+msgstr ""
+
+#: inc/customize-control.php:22 elementor/jobclub-elementor-blog.php:53
+msgid "Select Category"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:46
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:63
+msgid ", "
+msgstr ""
+
+#. 1: list of categories.
+#: inc/template-tags.php:66
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:70
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. 1: list of tags.
+#: inc/template-tags.php:73
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:83
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:100 template-parts/content-page.php:39
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: welcome/welcome.php:16
+msgid "Jobclub!"
+msgstr ""
+
+#: welcome/welcome.php:17
+msgid "Best for Job Board Websites"
+msgstr ""
+
+#: welcome/welcome.php:20 welcome/welcome.php:332
+msgid "Get Jobclub Pro"
+msgstr ""
+
+#: welcome/welcome.php:21
+msgid "Documentation"
+msgstr ""
+
+#: welcome/welcome.php:30
+msgid "Import Demo Content"
+msgstr ""
+
+#: welcome/welcome.php:31
+msgid ""
+"1.  Goto Appearance > Install Plugins and Install all Recommended Plugins"
+msgstr ""
+
+#: welcome/welcome.php:33
+msgid ""
+"2. Goto Appearance > Import demo Data and import demo content from there"
+msgstr ""
+
+#: welcome/welcome.php:35
+msgid "3. Your Site is now ready."
+msgstr ""
+
+#: welcome/welcome.php:45
+msgid "More About Jobclub"
+msgstr ""
+
+#: welcome/welcome.php:50
+msgid "Important Links"
+msgstr ""
+
+#: welcome/welcome.php:51
+msgid "FAQ's & Support"
+msgstr ""
+
+#: welcome/welcome.php:52
+msgid "Free Vs Pro"
+msgstr ""
+
+#: welcome/welcome.php:57
+msgid "Jobclub (Free) Demo "
+msgstr ""
+
+#: welcome/welcome.php:58
+msgid ""
+"Checkout the demo to gain a better understanding of our theme design and its "
+"features."
+msgstr ""
+
+#: welcome/welcome.php:59 welcome/welcome.php:65
+msgid "View Demo"
+msgstr ""
+
+#: welcome/welcome.php:63
+msgid "Jobclub (Pro) Demo "
+msgstr ""
+
+#: welcome/welcome.php:64
+msgid "Checkout the demo of the premium version of Jobclub, It is awesome."
+msgstr ""
+
+#: welcome/welcome.php:69
+msgid "View Our Documentation"
+msgstr ""
+
+#: welcome/welcome.php:70
+msgid ""
+"Explore our tutorials and embark on a journey of effortless theme "
+"customization. Our Documentation provides valuable insights into every "
+"aspect of theme functionality, empowering you to create a website that "
+"reflects your vision with confidence."
+msgstr ""
+
+#: welcome/welcome.php:71
+msgid "View Documentation"
+msgstr ""
+
+#: welcome/welcome.php:75
+msgid "Support Ticket"
+msgstr ""
+
+#: welcome/welcome.php:76
+msgid ""
+"Whether you encounter technical challenges, have inquiries about "
+"customization, or seek guidance on maximizing theme features, Send ticket "
+"via our Support Portal and we will get back to you asap."
+msgstr ""
+
+#: welcome/welcome.php:77
+msgid "Contact Support"
+msgstr ""
+
+#: welcome/welcome.php:85
+msgid "Should I buy Premium version?"
+msgstr ""
+
+#: welcome/welcome.php:87
+msgid ""
+"Sure, Premium Version comes with much more features which is one of the "
+"reason you should buy premium version. With the premium theme, you not only "
+"receive extra features and consistent updates but also benefit from "
+"dedicated and prompt support."
+msgstr ""
+
+#: welcome/welcome.php:95
+msgid ""
+"I can only add couple of social links in my website. How can I add more ?"
+msgstr ""
+
+#: welcome/welcome.php:97
+msgid ""
+"There are 2 options, you can either get the premium version or you can "
+"modify the codes and add yourself. Remember to add the changes in child "
+"theme always."
+msgstr ""
+
+#: welcome/welcome.php:105
+msgid "How do I change the copyright text?"
+msgstr ""
+
+#: welcome/welcome.php:108
+msgid ""
+"If you wish to change the copyright text, consider upgrading to the Premium "
+"version."
+msgstr ""
+
+#: welcome/welcome.php:115
+msgid "How can I get support?"
+msgstr ""
+
+#: welcome/welcome.php:118
+msgid ""
+"For any theme related queries or support, Please submit the tickt through "
+"our support portal https://themesartist.com/support-portal/ or email us here "
+"mail.themesartist@gmail.com and one of our developer will getback to you "
+"asap."
+msgstr ""
+
+#: welcome/welcome.php:126
+msgid "Features"
+msgstr ""
+
+#: welcome/welcome.php:127
+msgid "Free Version"
+msgstr ""
+
+#: welcome/welcome.php:128
+msgid "Premium Version"
+msgstr ""
+
+#: welcome/welcome.php:131
+msgid "Responsive Design"
+msgstr ""
+
+#: welcome/welcome.php:140
+msgid "Easy Setup"
+msgstr ""
+
+#: welcome/welcome.php:150 lib/jobclub-tgmp.php:104
+msgid "One Click Demo Import"
+msgstr ""
+
+#: welcome/welcome.php:160
+msgid "SEO Optimized"
+msgstr ""
+
+#: welcome/welcome.php:170
+msgid "Cross Browser Compatible"
+msgstr ""
+
+#: welcome/welcome.php:180
+msgid "Translation Ready"
+msgstr ""
+
+#: welcome/welcome.php:189
+msgid "Built with Elementor"
+msgstr ""
+
+#: welcome/welcome.php:198
+msgid "Gutenberg Blocks Support"
+msgstr ""
+
+#: welcome/welcome.php:207
+msgid "Multiple Social Links"
+msgstr ""
+
+#: welcome/welcome.php:217
+msgid "Change Footer Copyright"
+msgstr ""
+
+#: welcome/welcome.php:227
+msgid "Multiple Custom Elementor Job Widgets"
+msgstr ""
+
+#: welcome/welcome.php:237
+msgid "Company Pages"
+msgstr ""
+
+#: welcome/welcome.php:247
+msgid "Multiple Header Options"
+msgstr ""
+
+#: welcome/welcome.php:256
+msgid "Beautiful Job Pages"
+msgstr ""
+
+#: welcome/welcome.php:265
+msgid "Compatible with Resume Manager Plugin"
+msgstr ""
+
+#: welcome/welcome.php:274
+msgid "Beautiful Inner Pages"
+msgstr ""
+
+#: welcome/welcome.php:283
+msgid "Multiple Homepage Demos"
+msgstr ""
+
+#: welcome/welcome.php:292
+msgid "Custom Login/Signup Page"
+msgstr ""
+
+#: welcome/welcome.php:302
+msgid "Job Applications Support"
+msgstr ""
+
+#: welcome/welcome.php:311
+msgid "Priority Support"
+msgstr ""
+
+#: welcome/welcome.php:330
+msgid "Checkout Jobclub Premium Version"
+msgstr ""
+
+#: welcome/welcome.php:331
+msgid ""
+"Jobclub Premium version comes with lot more features and better designs. "
+"Also We provide priority support to Premium version users."
+msgstr ""
+
+#: welcome/welcome.php:339
+msgid "Need more features added to the theme?"
+msgstr ""
+
+#: welcome/welcome.php:340
+msgid ""
+"If you require additional functionality or would like to customize the "
+"design to suit your needs, please fill out the form from the link below. We "
+"will contact you shortly. Please be as descriptive as possible."
+msgstr ""
+
+#: welcome/welcome.php:341
+msgid "Request Customization"
+msgstr ""
+
+#: welcome/welcome.php:348
+msgid "Love the Jobclub Theme?"
+msgstr ""
+
+#: welcome/welcome.php:349
+msgid ""
+"Support us by giving 5 star, just takes a few minutes to add a review. It "
+"will be very helpful for us."
+msgstr ""
+
+#: welcome/welcome.php:350
+msgid "Add a Review"
+msgstr ""
+
+#: elementor/jobclub-elementor-blog.php:22
+msgid "Blog Posts"
+msgstr ""
+
+#: elementor/jobclub-elementor-blog.php:47
+msgid "Blog Options"
+msgstr ""
+
+#: elementor/jobclub-elementor-blog.php:64
+msgid "No. Of Posts"
+msgstr ""
+
+#: elementor/jobclub-elementor-job-list.php:22
+msgid "Job Lists"
+msgstr ""
+
+#: elementor/jobclub-elementor-banner.php:22
+msgid "Banner"
+msgstr ""
+
+#: elementor/jobclub-elementor-banner.php:47
+msgid "Banner Options"
+msgstr ""
+
+#: elementor/jobclub-elementor-banner.php:53
+msgid "Enter Title"
+msgstr ""
+
+#: elementor/jobclub-elementor-banner.php:55
+msgid "Title"
+msgstr ""
+
+#: elementor/jobclub-elementor-banner.php:62
+msgid "Enter Description"
+msgstr ""
+
+#: elementor/jobclub-elementor-banner.php:64
+msgid "Description"
+msgstr ""
+
+#: elementor/jobclub-elementor-banner.php:72
+msgid "Enter Button Text"
+msgstr ""
+
+#: elementor/jobclub-elementor-banner.php:74
+msgid "Button Text"
+msgstr ""
+
+#: elementor/jobclub-elementor-banner.php:81
+msgid "Button Link"
+msgstr ""
+
+#: elementor/jobclub-elementor-banner.php:83
+msgid "https://your-link.com"
+msgstr ""
+
+#: elementor/jobclub-elementor-banner.php:95
+msgid "Choose Banner Background Image"
+msgstr ""
+
+#. Name of the template
+#: page-templates/template-home.php:2
+msgid "Home Page Template"
+msgstr ""
+
+#. Name of the template
+#: page-templates/template-fullwidth.php:2
+msgid "Fullwidth Template"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:25 template-parts/content.php:109
+msgid "Pages:"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:95
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: lib/jobclub-tgmp.php:65
+msgid "WP Job Manager"
+msgstr ""
+
+#: lib/jobclub-tgmp.php:71
+msgid "Elementor"
+msgstr ""
+
+#: lib/jobclub-tgmp.php:77
+msgid "Themes Artist Demo Importer"
+msgstr ""
+
+#: lib/jobclub-tgmp.php:83
+msgid "WP Job Manager - Job Type Colors"
+msgstr ""
+
+#: lib/jobclub-tgmp.php:90
+msgid "Regions for WP Job Manager"
+msgstr ""
+
+#: lib/jobclub-tgmp.php:97
+msgid "WPJM Extra Fields"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Jobclub is a modern and feature-rich WordPress theme designed specifically "
+"for creating professional job board websites. Powered by the robust WP Job "
+"Manager plugin, Jobclub offers seamless functionality for posting, managing, "
+"and browsing job listings with ease. Its clean design, responsive layout, "
+"and intuitive user experience make it an excellent choice for recruitment "
+"agencies, HR companies, or anyone looking to build a job portal. With "
+"customizable options, integrated application management, and support for "
+"paid listings, Jobclub stands out as the Best Jobboard WordPress Theme for "
+"anyone seeking a reliable and scalable job listing platform.View Demo at "
+"https://demo.themesartist.com/jobclub/"
+msgstr ""
+
+#. Author of the theme
+msgid "themesartist"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themesartist.com/"
+msgstr ""

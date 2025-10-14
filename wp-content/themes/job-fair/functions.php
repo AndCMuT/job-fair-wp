@@ -6,8 +6,8 @@
     }
     function add_logo() {
         add_theme_support( 'custom-logo', [
-            'height' => 50,
-            'width' => 50,
+            'height' => 70,
+            'width' => 70,
             'flex-width' => false,
             'flex-height' => false,
             'header-text' => '',
