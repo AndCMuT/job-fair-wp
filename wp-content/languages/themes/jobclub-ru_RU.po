@@ -1,0 +1,1040 @@
+# Translation of Themes - Jobclub in Russian
+# This file is distributed under the same license as the Themes - Jobclub package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-08-25 08:43:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Jobclub\n"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Jobclub is a modern and feature-rich WordPress theme designed specifically for creating professional job board websites. Powered by the robust WP Job Manager plugin, Jobclub offers seamless functionality for posting, managing, and browsing job listings with ease. Its clean design, responsive layout, and intuitive user experience make it an excellent choice for recruitment agencies, HR companies, or anyone looking to build a job portal. With customizable options, integrated application management, and support for paid listings, Jobclub stands out as the Best Jobboard WordPress Theme for anyone seeking a reliable and scalable job listing platform.View Demo at https://demo.themesartist.com/jobclub/"
+msgstr "Jobclub - это современная и многофункциональная тема WordPress, разработанная специально для создания профессиональных сайтов с объявлениями о работе. На платформе надежного плагина WP Job Manager тема Jobclub предлагает удобную функциональность для записи, управления и просмотра объявлений о вакансиях. Чистый дизайн, адаптивный макет и интуитивно понятный пользовательский интерфейс делают его отличным выбором для кадровых агентств, HR-компаний и всех, кто хочет создать портал заданий. Благодаря настраиваемым параметрам, интегрированному управлению приложениями и поддержке платных объявлений, Jobclub - лучшая тема для WordPress доски объявлений для тех, кто ищет надежную и масштабируемую платформу для размещения заданий.View Demo at https://demo.themesartist.com/jobclub/"
+
+#. Theme Name of the theme
+#: style.css footer.php:53
+#, gp-priority: high
+msgid "Jobclub"
+msgstr "Jobclub"
+
+#: welcome/welcome.php:342
+msgid "Add a Review"
+msgstr "Добавить отзыв"
+
+#: welcome/welcome.php:341
+msgid "Support us by giving 5 star, just takes a few minutes to add a review. It will be very helpful for us."
+msgstr "Поддержите нас, поставив 5 звезд - добавление отзыва займет всего несколько минут. Это будет очень полезно для нас."
+
+#: welcome/welcome.php:340
+msgid "Love the Jobclub Theme?"
+msgstr "Вам нравится тема Jobclub?"
+
+#: welcome/welcome.php:333
+msgid "Request Customization"
+msgstr "Запросить пользовательскую настройку"
+
+#: welcome/welcome.php:332
+msgid "If you require additional functionality or would like to customize the design to suit your needs, please fill out the form from the link below. We will contact you shortly. Please be as descriptive as possible."
+msgstr "Если Вам нужна дополнительная функциональность или Вы хотите настроить дизайн под свои нужды, заполните форму по ссылке ниже. Мы свяжемся с Вами в ближайшее время. Пожалуйста, будьте максимально описательны."
+
+#: welcome/welcome.php:331
+msgid "Need more features added to the theme?"
+msgstr "Вам нужны дополнительные функции к этой теме?"
+
+#: welcome/welcome.php:323
+msgid "Jobclub Premium version comes with lot more features and better designs. Also We provide priority support to Premium version users."
+msgstr "Премиум-версия Jobclub включает в себя гораздо больше функций и лучший дизайн. Также мы предоставляем приоритетную поддержку пользователям Премиум-версии."
+
+#: welcome/welcome.php:322
+msgid "Checkout Jobclub Premium Version"
+msgstr "Ознакомьтесь с Premium версией Jobclub"
+
+#: welcome/welcome.php:303
+msgid "Priority Support"
+msgstr "Приоритетная поддержка"
+
+#: welcome/welcome.php:294
+msgid "Job Applications Support"
+msgstr "Поддержка подачи заявлений о приеме на работу"
+
+#: welcome/welcome.php:284
+msgid "Custom Login/Signup Page"
+msgstr "Пользовательская страница входа/регистрации"
+
+#: welcome/welcome.php:275
+msgid "Multiple Homepage Demos"
+msgstr "Несколько демо-версий главной страницы"
+
+#: welcome/welcome.php:266
+msgid "Beautiful Inner Pages"
+msgstr "Красивые внутренние страницы"
+
+#: welcome/welcome.php:257
+msgid "Compatible with Resume Manager Plugin"
+msgstr "Совместимость с плагином Resume Manager"
+
+#: welcome/welcome.php:248
+msgid "Beautiful Job Pages"
+msgstr "Красивые страницы вакансий"
+
+#: welcome/welcome.php:239
+msgid "Multiple Header Options"
+msgstr "Несколько параметров заголовка"
+
+#: welcome/welcome.php:229
+msgid "Company Pages"
+msgstr "Страницы компании"
+
+#: welcome/welcome.php:219
+msgid "Multiple Custom Elementor Job Widgets"
+msgstr "Несколько пользовательских виджетов заданий Elementor"
+
+#: welcome/welcome.php:209
+msgid "Change Footer Copyright"
+msgstr "Изменить авторское право подвала"
+
+#: welcome/welcome.php:199
+msgid "Multiple Social Links"
+msgstr "Множество ссылок соцсетей"
+
+#: welcome/welcome.php:189
+msgid "Built with Elementor"
+msgstr "Создано с помощью Elementor"
+
+#: welcome/welcome.php:180
+msgid "Translation Ready"
+msgstr "Готова к переводу"
+
+#: welcome/welcome.php:170
+msgid "Cross Browser Compatible"
+msgstr "Кросс-браузерная совместимость"
+
+#: welcome/welcome.php:160
+msgid "SEO Optimized"
+msgstr "Оптимизировано для SEO"
+
+#: welcome/welcome.php:140
+msgid "Easy Setup"
+msgstr "Простая установка"
+
+#: welcome/welcome.php:131
+msgid "Responsive Design"
+msgstr "Адаптивный дизайн"
+
+#: welcome/welcome.php:128
+msgid "Premium Version"
+msgstr "Премиум версия"
+
+#: welcome/welcome.php:127
+msgid "Free Version"
+msgstr "Бесплатная версия"
+
+#: welcome/welcome.php:126
+msgid "Features"
+msgstr "Функции"
+
+#: welcome/welcome.php:118
+msgid "For any theme related queries or support, Please submit the tickt through our support portal https://themesartist.com/support-portal/ or email us here mail.themesartist@gmail.com and one of our developer will getback to you asap."
+msgstr "Если у Вас возникли вопросы по теме, отправьте сообщение через портал поддержки https://themesartist.com/support-portal/ или email нам сюда Mail.themesartist@gmail.com, и один из наших разработчиков свяжется с Вами как можно скорее."
+
+#: welcome/welcome.php:115
+msgid "How can I get support?"
+msgstr "Как я могу получить поддержку?"
+
+#: welcome/welcome.php:108
+msgid "If you wish to change the copyright text, consider upgrading to the Premium version."
+msgstr "Если Вы хотите изменить текст авторского права, перейдите на версию Premium."
+
+#: welcome/welcome.php:105
+msgid "How do I change the copyright text?"
+msgstr "Как мне изменить текст авторского права?"
+
+#: welcome/welcome.php:97
+msgid "There are 2 options, you can either get the premium version or you can modify the codes and add yourself. Remember to add the changes in child theme always."
+msgstr "Есть 2 варианта: Вы можете либо приобрести премиум-версию, либо изменить коды и добавить их самостоятельно. Не забывайте всегда добавлять изменения в дочернюю тему."
+
+#: welcome/welcome.php:95
+msgid "I can only add couple of social links in my website. How can I add more ?"
+msgstr "Я могу добавить на свой сайт только пару социальных ссылок. Как я могу добавить больше?"
+
+#: welcome/welcome.php:87
+msgid "Sure, Premium Version comes with much more features which is one of the reason you should buy premium version. With the premium theme, you not only receive extra features and consistent updates but also benefit from dedicated and prompt support."
+msgstr "Конечно, премиум-версия имеет гораздо больше возможностей, и это одна из причин, по которой Вам стоит приобрести премиум-версию. С премиум-темой Вы не только получаете дополнительные возможности и постоянные обновления, но и пользуетесь специализированной и оперативной поддержкой."
+
+#: welcome/welcome.php:85
+msgid "Should I buy Premium version?"
+msgstr "Стоит ли мне покупать Премиум версию?"
+
+#: welcome/welcome.php:77
+msgid "Contact Support"
+msgstr "Связаться со службой поддержки"
+
+#: welcome/welcome.php:76
+msgid "Whether you encounter technical challenges, have inquiries about customization, or seek guidance on maximizing theme features, Send ticket via our Support Portal and we will get back to you asap."
+msgstr "Если у Вас возникли технические проблемы, вопросы по настройке или Вы хотите получить рекомендации по максимальному использованию возможностей темы, отправьте обращение через наш портал поддержки, и мы свяжемся с Вами в ближайшее время."
+
+#: welcome/welcome.php:75
+msgid "Support Ticket"
+msgstr "Обращение в службу поддержки"
+
+#: welcome/welcome.php:71
+msgid "View Documentation"
+msgstr "Посмотреть документацию"
+
+#: welcome/welcome.php:70
+msgid "Explore our tutorials and embark on a journey of effortless theme customization. Our Documentation provides valuable insights into every aspect of theme functionality, empowering you to create a website that reflects your vision with confidence."
+msgstr "Изучите наши руководства и отправляйтесь в путешествие по настройке темы без особых усилий. Наша документация содержит ценные сведения о каждом аспекте функциональности темы, позволяя Вам с уверенностью создать сайт, отражающий Ваше видение."
+
+#: welcome/welcome.php:69
+msgid "View Our Documentation"
+msgstr "Изучите нашу документацию"
+
+#: welcome/welcome.php:64
+msgid "Checkout the demo of the premium version of Jobclub, It is awesome."
+msgstr "Ознакомьтесь с демо Premium версии Jobclub, это потрясающе."
+
+#: welcome/welcome.php:63
+msgid "Jobclub (Pro) Demo "
+msgstr "Демо Jobclub (Pro) "
+
+#: welcome/welcome.php:59 welcome/welcome.php:65
+msgid "View Demo"
+msgstr "Смотреть демонстрацию"
+
+#: welcome/welcome.php:58
+msgid "Checkout the demo to gain a better understanding of our theme design and its features."
+msgstr "Ознакомьтесь с демо, чтобы лучше понять дизайн нашей темы и ее функции., чтобы лучше понять дизайн нашей темы и ее особенности."
+
+#: welcome/welcome.php:57
+msgid "Jobclub (Free) Demo "
+msgstr "Демо Jobclub (Free) "
+
+#: welcome/welcome.php:52
+msgid "Free Vs Pro"
+msgstr "Free против Pro"
+
+#: welcome/welcome.php:51
+msgid "FAQ's & Support"
+msgstr "FAQ и поддержка"
+
+#: welcome/welcome.php:50
+msgid "Important Links"
+msgstr "Полезные ссылки"
+
+#: welcome/welcome.php:45
+msgid "More About Jobclub"
+msgstr "Больше о Jobclub"
+
+#: welcome/welcome.php:35
+msgid "3. Your Site is now ready."
+msgstr "3. Теперь Ваш сайт готов."
+
+#: welcome/welcome.php:33
+msgid "2. Goto Appearance > Import demo Data and import demo content from there"
+msgstr "2. Перейдите в меню Внешний вид > Импорт демо-данных и импортируйте оттуда демо-контент"
+
+#: welcome/welcome.php:31
+msgid "1.  Goto Appearance > Install Plugins and Install all Recommended Plugins"
+msgstr "1.  Перейдите в меню Внешний вид > Установить плагины и установите все рекомендуемые плагины"
+
+#: welcome/welcome.php:30
+msgid "Import Demo Content"
+msgstr "Импорт содержимого демо"
+
+#: welcome/welcome.php:21
+msgid "Documentation"
+msgstr "Документация"
+
+#: welcome/welcome.php:20 welcome/welcome.php:324
+msgid "Get Jobclub Pro"
+msgstr "Получить Jobclub Pro"
+
+#: welcome/welcome.php:17
+msgid "Best for Job Board Websites"
+msgstr "Лучшее для сайтов досок объявлений о работе"
+
+#: welcome/welcome.php:16
+msgid "Jobclub!"
+msgstr "Jobclub!"
+
+#: functions.php:412
+msgid "About Jobclub"
+msgstr "О Jobclub"
+
+#: functions.php:385
+msgid "Dismiss"
+msgstr "Закрыть"
+
+#: functions.php:384 functions.php:413
+msgid "Welcome to Jobclub"
+msgstr "Добро пожаловать в Jobclub"
+
+#: functions.php:383
+msgid "Jobclub is now installed and ready to use. Click below to see theme documentation, and other details to get started."
+msgstr "Jobclub теперь установлена и готова к использованию. Щелкните ниже, чтобы посмотреть документацию по теме и другие детали для начала работы."
+
+#: functions.php:382
+msgid "Hey, Thank you for installing Jobclub Theme!"
+msgstr "Спасибо за установку темы Jobclub!"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:95
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Читать далее<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: template-parts/content-page.php:25 template-parts/content.php:109
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Похоже, мы не можем найти то, что Вы ищете. Возможно, поиск может помочь."
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "По вашему запросу ничего не найдено. Попробуйте другие ключевые слова."
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните здесь</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: single.php:32 single.php:64
+msgid "Next:"
+msgstr "Следующая:"
+
+#: single.php:31 single.php:63
+msgid "Previous:"
+msgstr "Предыдущая:"
+
+#. translators: %s: search query.
+#: search.php:24
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка плагина %1$s (%2$d/%3$d)"
+
+#: plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "Все установки завершены."
+
+#. translators: 1: plugin name.
+#: plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr "%1$s был успешно установлен."
+
+#: plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Начался процесс установки, он может занять некоторое время, особенно на медленных серверах, будьте терпеливы."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка и активация плагина %1$s (%2$d/%3$d)"
+
+#: plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "Все процедуры установки и активации завершены."
+
+#. translators: 1: plugin name.
+#: plugin-activation.php:3509 plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "Скрыть детали"
+
+#. translators: 1: plugin name.
+#: plugin-activation.php:3509 plugin-activation.php:3517
+msgid "Show Details"
+msgstr "Подробнее"
+
+#. translators: 1: plugin name.
+#: plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s был успешно установлен и активирован."
+
+#: plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Началась установка и активация. Этот процесс может занять некоторое время, особенно на медленных серверах, будьте терпеливы."
+
+#. translators: 1: plugin name.
+#: plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "Установка %1$s не удалась."
+
+#. translators: 1: plugin name, 2: error message.
+#: plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Возникла ошибка при установке %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Обновление плагина %1$s (%2$d/%3$d)"
+
+#: plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "Активация плагина не удалась."
+
+#: plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "Сейчас нет доступных плагинов для активации."
+
+#: plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Не выбрано плагинов для активации. Действий не требуется."
+
+#: plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "Сейчас нет доступных плагинов для обновления."
+
+#: plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "Сейчас нет доступных плагинов для установки."
+
+#: plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Не выбрано плагинов для обновления. Действий не требуется."
+
+#: plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Не выбрано плагинов для установки. Действий не требуется."
+
+#: plugin-activation.php:2726
+msgid "Activate"
+msgstr "Активировать"
+
+#: plugin-activation.php:2723
+msgid "Update"
+msgstr "Обновление"
+
+#: plugin-activation.php:2717
+msgid "Install"
+msgstr "Установка"
+
+#: plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Сообщение об обновлении от автора плагина:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr "Активировать %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr "Обновить %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr "Установить %2$s"
+
+#: plugin-activation.php:2554
+msgid "Status"
+msgstr "Статус"
+
+#: plugin-activation.php:2553
+msgid "Version"
+msgstr "Версия"
+
+#: plugin-activation.php:2549
+msgid "Type"
+msgstr "Тип"
+
+#: plugin-activation.php:2548
+msgid "Source"
+msgstr "Источник"
+
+#: plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Плагин"
+
+#: plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "Нет плагинов для установки, обновления или активации."
+
+#: plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Доступная версия:"
+
+#: plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Миним. необходимая версия:"
+
+#: plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Установленная версия:"
+
+#: plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "неизвестный"
+
+#. translators: 1: number of plugins.
+#: plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Чтобы активировать <span class=\"count\">(%s)</span>"
+msgstr[1] "Чтобы активировать <span class=\"count\">(%s)</span>"
+msgstr[2] "Чтобы активировать <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Доступно обновление <span class=\"count\">(%s)</span>"
+msgstr[1] "Доступно обновление <span class=\"count\">(%s)</span>"
+msgstr[2] "Доступно обновлений <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Чтобы установить <span class=\"count\">(%s)</span>"
+msgstr[1] "Чтобы установить <span class=\"count\">(%s)</span>"
+msgstr[2] "Чтобы установить <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Все <span class=\"count\">(%s)</span>"
+msgstr[1] "Все <span class=\"count\">(%s)</span>"
+msgstr[2] "Все <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Рекомендуется обновление"
+
+#: plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Требуется обновление"
+
+#: plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "Требуемое обновление недоступно"
+
+#: plugin-activation.php:2321
+msgid "Active"
+msgstr "Активно"
+
+#: plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Установлен, но не активирован"
+
+#: plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "Не установлен"
+
+#: plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Предварительно упакованный"
+
+#: plugin-activation.php:2295
+msgid "External Source"
+msgstr "Внешний источник"
+
+#: plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "Репозиторий WordPress"
+
+#: plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Рекомендуется"
+
+#: plugin-activation.php:2273
+msgid "Required"
+msgstr "Обязательное"
+
+#. translators: %s: version number
+#: plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: plugin-activation.php:1121 plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "и"
+
+#: plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "Пакет удаленного плагина состоит из нескольких файлов, но файлы не упакованы в папку."
+
+#: plugin-activation.php:934 plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Свяжитесь с поставщиком плагина и попросите его упаковать плагин в соответствии с рекомендациями WordPress."
+
+#: plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "В пакете удаленного плагина нет папки с нужным ярлыком и переименование не помогло."
+
+#: plugin-activation.php:523
+msgid "Update Required"
+msgstr "Требуется обновление"
+
+#: plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Этот плагин необходимо обновить, чтобы он был совместим с вашей темой."
+
+#: plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "Обратитесь за помощью к администратору этого сайта."
+
+#: plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Имеются один или более требуемых, или рекомендуемых плагинов для установки, обновления или активации."
+
+#: plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "Отклонить это уведомление"
+
+#. translators: 1: dashboard link.
+#: plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Все плагины были успешно установлены и активированы. %1$s"
+
+#. translators: 1: plugin name.
+#: plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Плагин не активирован. Тема требует более новую версию %s. Обновите плагин."
+
+#. translators: 1: plugin name.
+#: plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Действие не требовалось. Плагин %1$s уже активен."
+
+#: plugin-activation.php:388 plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Следующий плагин был успешно активирован:"
+msgstr[1] "Следующие плагины были успешно активированы:"
+msgstr[2] "Следующие плагинов был успешно активирован:"
+
+#: plugin-activation.php:387 plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "Плагин успешно активирован."
+
+#: plugin-activation.php:386 plugin-activation.php:827
+#: plugin-activation.php:2533 plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Вернуться в консоль"
+
+#: plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "Вернуться к установке требуемых плагинов"
+
+#: plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Начать активацию плагина"
+msgstr[1] "Начать активацию плагинов"
+msgstr[2] "Начать активацию плагинов"
+
+#: plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Начать обновление плагина"
+msgstr[1] "Начать обновление плагинов"
+msgstr[2] "Начать обновление плагинов"
+
+#: plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Начать установку плагина"
+msgstr[1] "Начать установку плагинов"
+msgstr[2] "Начать установку плагинов"
+
+#. translators: 1: plugin name(s).
+#: plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Следующий рекомендуемый плагин в настоящее время неактивен: %1$s."
+msgstr[1] "Следующие рекомендуемые плагины в настоящее время неактивны: %1$s."
+msgstr[2] "Следующие рекомендуемые плагины в настоящее время неактивны: %1$s."
+
+#. translators: 1: plugin name(s).
+#: plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Следующий необходимый плагин в настоящее время неактивен: %1$s."
+msgstr[1] "Следующие необходимые плагины в настоящее время неактивны: %1$s."
+msgstr[2] "Следующие необходимые плагины в настоящее время неактивны: %1$s."
+
+#. translators: 1: plugin name(s).
+#: plugin-activation.php:352
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Доступно обновление плагина: %1$s."
+msgstr[1] "Доступны обновления плагинов: %1$s."
+msgstr[2] "Доступны обновления плагинов: %1$s."
+
+#. translators: 1: plugin name(s).
+#: plugin-activation.php:346
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "Этот плагин должен быть обновлен до последней версии, чтобы обеспечить максимальную совместимость с этой темой: %1$s."
+msgstr[1] "Эти плагины должны быть обновлены до последней версии, чтобы обеспечить максимальную совместимость с этой темой: %1$s."
+msgstr[2] "Эти плагины должны быть обновлены до последней версии, чтобы обеспечить максимальную совместимость с этой темой: %1$s."
+
+#. translators: 1: plugin name(s).
+#: plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Тема рекомендует следующий плагин: %1$s."
+msgstr[1] "Тема рекомендует следующие плагины: %1$s."
+msgstr[2] "Тема рекомендует следующие плагины: %1$s."
+
+#. translators: 1: plugin name(s).
+#: plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Эта тема требует следующий плагин: %1$s."
+msgstr[1] "Тема предусматривает следующий плагин: %1$s."
+msgstr[2] "Эта тема требует следующих плагинов: %1$s."
+
+#: plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Что-то пошло не так с API плагина."
+
+#. translators: %s: plugin name.
+#: plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr "Обновление плагина: %s"
+
+#. translators: %s: plugin name.
+#: plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr "Установка плагина: %s"
+
+#: plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Установить плагины"
+
+#: plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "Установить требуемые плагины"
+
+#. Template Name of the theme
+msgid "Home Page Template"
+msgstr "Шаблон главной страницы"
+
+#. Template Name of the theme
+msgid "Fullwidth Template"
+msgstr "Шаблон на всю ширину"
+
+#: lib/jobclub-tgmp.php:98 welcome/welcome.php:150
+msgid "One Click Demo Import"
+msgstr "One Click Demo Import"
+
+#: lib/jobclub-tgmp.php:91
+msgid "WPJM Extra Fields"
+msgstr "WPJM Extra Fields"
+
+#: lib/jobclub-tgmp.php:84
+msgid "Regions for WP Job Manager"
+msgstr "Regions for WP Job Manager"
+
+#: lib/jobclub-tgmp.php:77
+msgid "Themes Artist Demo Importer"
+msgstr "Themes Artist Demo Importer"
+
+#: lib/jobclub-tgmp.php:71
+msgid "Elementor"
+msgstr "Elementor"
+
+#: lib/jobclub-tgmp.php:65
+msgid "WP Job Manager"
+msgstr "WP Job Manager"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:100 template-parts/content-page.php:39
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Изменить <span class=\"screen-reader-text\">%s</span>"
+
+#. translators: %s: post title
+#: inc/template-tags.php:83
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Оставить комментарий<span class=\"screen-reader-text\"> к  %s</span>"
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:73
+msgid "Tagged %1$s"
+msgstr "Отмечено %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:70
+msgctxt "list item separator"
+msgid ", "
+msgstr ", "
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:66
+msgid "Posted in %1$s"
+msgstr "Запись в %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:63
+msgid ", "
+msgstr ", "
+
+#. translators: %s: post author.
+#: inc/template-tags.php:46
+msgctxt "post author"
+msgid "by %s"
+msgstr "автор: %s"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:30
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Опубликовано в %s"
+
+#: inc/customizer.php:223
+msgid "Show Widgets"
+msgstr "Показать виджеты"
+
+#: inc/customizer.php:206
+msgid "Copyright text can be changed in Premium Version"
+msgstr "Текст авторского права может быть изменен в Премиум-версии"
+
+#: inc/customizer.php:205
+msgid "Footer Option"
+msgstr "Вариант подвала"
+
+#: inc/customizer.php:192
+msgid "Full Width?"
+msgstr "Во всю ширину?"
+
+#: inc/customizer.php:174
+msgid "Dark Header?"
+msgstr "Темный заголовок?"
+
+#: inc/customizer.php:158
+msgid "Bottom Menu Layout"
+msgstr "Макет нижнего меню"
+
+#: inc/customizer.php:157
+msgid "Centered Layout"
+msgstr "Макет по центру"
+
+#: inc/customizer.php:156
+msgid "Default Header"
+msgstr "Заголовок по умолчанию"
+
+#: inc/customizer.php:154
+msgid "Choose Header Layout"
+msgstr "Выбрать макет заголовка"
+
+#: inc/customizer.php:137
+msgid "Header Section"
+msgstr "Раздел заголовка"
+
+#: inc/customizer.php:124
+msgid "Show Sidebar in Single Article?"
+msgstr "Показать боковую панель в отдельной статье?"
+
+#: inc/customizer.php:107
+msgid "Single Article/Blog Page"
+msgstr "Отдельная страница статьи/блога"
+
+#: inc/customizer.php:96
+msgid "Twiiter X Link"
+msgstr "Ссылка на X (Twitter)"
+
+#: inc/customizer.php:81
+msgid "Instagram Link"
+msgstr "Ссылка на Instagram"
+
+#: inc/customizer.php:66
+msgid "Facebook Link"
+msgstr "Ссылка на Facebook"
+
+#: inc/customizer.php:52
+msgid "More Social Links are available in Premium Version"
+msgstr "Больше ссылок соцсетей доступно в Премиум версии"
+
+#: inc/customizer.php:51
+msgid "Social Links"
+msgstr "Ссылки соцсети"
+
+#: inc/customizer.php:40
+msgid "Theme Options"
+msgstr "Настройки темы"
+
+#: header.php:120 header.php:228 header.php:360
+msgid "Close Menu"
+msgstr "Закрыть меню"
+
+#: header.php:37
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#: functions.php:308
+msgid "Add Footer Widget"
+msgstr "Добавить виджет подвала"
+
+#: functions.php:212
+msgctxt "Bricolage Grotesque font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:133
+msgid "Jobclub Footer Widget"
+msgstr "Виджет подвала Jobclub"
+
+#: functions.php:124
+msgid "Add widgets here."
+msgstr "Добавить виджеты здесь."
+
+#: functions.php:122
+msgid "Sidebar"
+msgstr "Боковая панель"
+
+#: functions.php:47
+msgid "Primary"
+msgstr "Основной"
+
+#: footer.php:52
+msgid " | "
+msgstr " | "
+
+#: footer.php:51
+msgid "Powered By WordPress"
+msgstr "На платформе WordPress"
+
+#: elementor/jobclub-elementor-job-list.php:22
+msgid "Job Lists"
+msgstr "Список вакансий"
+
+#: elementor/jobclub-elementor-blog.php:64
+msgid "No. Of Posts"
+msgstr "Кол-во записей"
+
+#: elementor/jobclub-elementor-blog.php:53 inc/customize-control.php:22
+msgid "Select Category"
+msgstr "Выбрать рубрику"
+
+#: elementor/jobclub-elementor-blog.php:47
+msgid "Blog Options"
+msgstr "Параметры блога"
+
+#: elementor/jobclub-elementor-blog.php:22
+msgid "Blog Posts"
+msgstr "Записи в блогах"
+
+#: elementor/jobclub-elementor-banner.php:95
+msgid "Choose Banner Background Image"
+msgstr "Выбрать изображение фона баннера"
+
+#: elementor/jobclub-elementor-banner.php:83
+msgid "https://your-link.com"
+msgstr "https://your-link.com"
+
+#: elementor/jobclub-elementor-banner.php:81
+msgid "Button Link"
+msgstr "Ссылка кнопки"
+
+#: elementor/jobclub-elementor-banner.php:74
+msgid "Button Text"
+msgstr "Текст кнопки"
+
+#: elementor/jobclub-elementor-banner.php:72
+msgid "Enter Button Text"
+msgstr "Введите текст кнопки"
+
+#: elementor/jobclub-elementor-banner.php:64
+msgid "Description"
+msgstr "Описание"
+
+#: elementor/jobclub-elementor-banner.php:62
+msgid "Enter Description"
+msgstr "Введите описание"
+
+#: elementor/jobclub-elementor-banner.php:55
+msgid "Title"
+msgstr "Название"
+
+#: elementor/jobclub-elementor-banner.php:53
+msgid "Enter Title"
+msgstr "Введите название"
+
+#: elementor/jobclub-elementor-banner.php:47
+msgid "Banner Options"
+msgstr "Параметры банера"
+
+#: elementor/jobclub-elementor-banner.php:22
+msgid "Banner"
+msgstr "Баннер"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s комментарий для &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментария для &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s комментариев для &ldquo;%2$s&rdquo;"
+
+#. translators: 1: title.
+#: comments.php:35
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Один комментарий к &ldquo;%1$s&rdquo;"
+
+#. translators: %1$s: smiley
+#: 404.php:51
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Загляните в архивы по месяцам %1$s"
+
+#: 404.php:33
+msgid "Most Used Categories"
+msgstr "Самые популярные рубрики"
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "По данному адресу ничего не найдено. Попробуйте воспользоваться одной из ссылок ниже или поиском?"
+
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой! Страница не найдена."
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://themesartist.com/jobclub"
+msgstr "https://themesartist.com/jobclub"
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://themesartist.com/"
+msgstr "https://themesartist.com/"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "themesartist"
+msgstr "themesartist"

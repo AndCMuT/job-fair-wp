@@ -1,0 +1,236 @@
+# Translation of Plugins - Themes Artist Demo Importer - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - Themes Artist Demo Importer - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-08-24 12:10:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Themes Artist Demo Importer - Development (trunk)\n"
+
+#: includes/class-themesartist-demo-importer.php:571
+msgid "Muliblog Free"
+msgstr "Muliblog Free"
+
+#: includes/class-themesartist-demo-importer.php:635
+msgid "Multiblog Pro - Coaching"
+msgstr "Multiblog Pro - Коучинг"
+
+#: includes/class-themesartist-demo-importer.php:599
+#: includes/class-themesartist-demo-importer.php:611
+msgid "Multiblog Pro - Magazine"
+msgstr "Multiblog Pro - Журнал"
+
+#: includes/class-themesartist-demo-importer.php:587
+msgid "Multiblog Pro - News"
+msgstr "Multiblog Pro - Новости"
+
+#: includes/class-themesartist-demo-importer.php:623
+msgid "Multiblog Pro - Recipe"
+msgstr "Multiblog Pro - Рецепт"
+
+#: includes/class-themesartist-demo-importer.php:338
+msgid "Localdirectory"
+msgstr "Localdirectory"
+
+#: includes/class-themesartist-demo-importer.php:343
+msgid "Make sure you are using free version of Localdirectory Theme"
+msgstr "Убедитесь, что Вы используете версию Free темы Localdirectory"
+
+#: includes/class-themesartist-demo-importer.php:555
+msgid "Newsmagify Free"
+msgstr "Newsmagify Free"
+
+#: includes/class-themesartist-demo-importer.php:543
+msgid "Newsmagify Pro"
+msgstr "Newsmagify Pro"
+
+#: includes/class-themesartist-demo-importer.php:515
+msgid "LMSCourse Free"
+msgstr "LMSCourse Free"
+
+#: includes/class-themesartist-demo-importer.php:531
+msgid "LMSCourse Pro"
+msgstr "LMSCourse Pro"
+
+#: includes/class-themesartist-demo-importer.php:383
+msgid "Profixer Free"
+msgstr "Profixer Free"
+
+#: includes/class-themesartist-demo-importer.php:503
+msgid "Profixer Pro - HVAC"
+msgstr "Profixer Pro - отопление, вентиляция и кондиционирование воздуха"
+
+#: includes/class-themesartist-demo-importer.php:477
+msgid "Profixer Pro- Cleaning"
+msgstr "Profixer Pro - Чистка"
+
+#: includes/class-themesartist-demo-importer.php:490
+msgid "Profixer Pro- Gardening"
+msgstr "Profixer Pro - Садоводство"
+
+#: includes/class-themesartist-demo-importer.php:413
+msgid "Profixer Pro- Handyman 2"
+msgstr "Profixer Pro - Мастер на все руки 2"
+
+#: includes/class-themesartist-demo-importer.php:400
+msgid "Profixer Pro- Handyman1"
+msgstr "Profixer Pro - Мастер на все руки 1"
+
+#: includes/class-themesartist-demo-importer.php:426
+msgid "Profixer Pro- Plumbing 1"
+msgstr "Profixer Pro - Сантехника 1"
+
+#: includes/class-themesartist-demo-importer.php:438
+msgid "Profixer Pro- Plumbing 2"
+msgstr "Profixer Pro - Сантехника 2"
+
+#: includes/class-themesartist-demo-importer.php:451
+msgid "Profixer Pro- Roofing 1"
+msgstr "Profixer Pro- Кровельные работы 1"
+
+#: includes/class-themesartist-demo-importer.php:464
+msgid "Profixer Pro- Roofing 2"
+msgstr "Profixer Pro- Кровельные работы 2"
+
+#: includes/class-themesartist-demo-importer.php:386
+#: includes/class-themesartist-demo-importer.php:404
+#: includes/class-themesartist-demo-importer.php:417
+#: includes/class-themesartist-demo-importer.php:430
+#: includes/class-themesartist-demo-importer.php:442
+#: includes/class-themesartist-demo-importer.php:455
+#: includes/class-themesartist-demo-importer.php:468
+#: includes/class-themesartist-demo-importer.php:481
+#: includes/class-themesartist-demo-importer.php:494
+#: includes/class-themesartist-demo-importer.php:507
+#: includes/class-themesartist-demo-importer.php:518
+#: includes/class-themesartist-demo-importer.php:535
+#: includes/class-themesartist-demo-importer.php:547
+#: includes/class-themesartist-demo-importer.php:558
+#: includes/class-themesartist-demo-importer.php:574
+#: includes/class-themesartist-demo-importer.php:591
+#: includes/class-themesartist-demo-importer.php:603
+#: includes/class-themesartist-demo-importer.php:615
+#: includes/class-themesartist-demo-importer.php:627
+#: includes/class-themesartist-demo-importer.php:639
+#: includes/class-themesartist-demo-importer.php:650
+#: includes/class-themesartist-demo-importer.php:667
+msgid "Themesartist"
+msgstr "Themes Artist"
+
+#: includes/class-themesartist-demo-importer.php:230
+msgid "Jobclub"
+msgstr "Jobclub"
+
+#: includes/class-themesartist-demo-importer.php:235
+msgid "Make sure you are using free version of Jobclub Theme"
+msgstr "Убедитесь, что Вы используете версию Free темы Jobclub"
+
+#: includes/class-themesartist-demo-importer.php:320
+msgid "Coachable"
+msgstr "Coachable"
+
+#: includes/class-themesartist-demo-importer.php:302
+msgid "Lawyering"
+msgstr "Lawyering"
+
+#: includes/class-themesartist-demo-importer.php:307
+msgid "Make sure you are using free version of Lawyering Theme"
+msgstr "Убедитесь, что Вы используете версию Free темы Lawyering"
+
+#: includes/class-themesartist-demo-importer.php:266
+msgid "Joblook"
+msgstr "Joblook"
+
+#: includes/class-themesartist-demo-importer.php:271
+msgid "Make sure you are using free version of Joblook Theme"
+msgstr "Убедитесь, что Вы используете версию Free темы Joblook"
+
+#. Plugin URI of the plugin
+#: themesartist-demo-importer.php
+msgid "https://themesartist.com"
+msgstr "https://themesartist.com"
+
+#. Author URI of the plugin
+#: themesartist-demo-importer.php
+msgid "https://themesartist.com/"
+msgstr "https://themesartist.com/"
+
+#. Author of the plugin
+#: themesartist-demo-importer.php
+msgid "Themes Artist"
+msgstr "Themes Artist"
+
+#. Plugin Name of the plugin
+#: themesartist-demo-importer.php
+msgid "Themes Artist Demo Importer"
+msgstr "Themes Artist Demo Importer"
+
+#: includes/class-themesartist-demo-importer.php:257
+msgid "Artimusic"
+msgstr "Artimusic"
+
+#: includes/class-themesartist-demo-importer.php:248
+msgid "BizDirectory"
+msgstr "BizDirectory"
+
+#: includes/class-themesartist-demo-importer.php:329
+msgid "Charitys"
+msgstr "Charitys"
+
+#: includes/class-themesartist-demo-importer.php:284
+msgid "Life Coaches"
+msgstr "Life Coaches"
+
+#: includes/class-themesartist-demo-importer.php:262
+msgid "Make sure you are using free version of Artimusic Theme"
+msgstr "Убедитесь, что Вы используете версию Free темы Artimusic"
+
+#: includes/class-themesartist-demo-importer.php:334
+msgid "Make sure you are using free version of Charitys Theme"
+msgstr "Убедитесь, что Вы используете версию Free темы Charitys"
+
+#: includes/class-themesartist-demo-importer.php:289
+msgid "Make sure you are using free version of Life Coaches Theme"
+msgstr "Убедитесь, что Вы используете версию Free темы Life Coaches"
+
+#: includes/class-themesartist-demo-importer.php:280
+msgid "Make sure you are using free version of Podcastin Theme"
+msgstr "Убедитесь, что Вы используете версию Free темы Podcastin"
+
+#: includes/class-themesartist-demo-importer.php:307
+msgid "Make sure you are using free version of Recipe Blogz Theme"
+msgstr "Убедитесь, что Вы используете версию Free темы Recipe Blogz"
+
+#: includes/class-themesartist-demo-importer.php:244
+#: includes/class-themesartist-demo-importer.php:253
+msgid "Make sure you are using free version of Super Job Theme"
+msgstr "Убедитесь, что Вы используете версию Free темы Super Job"
+
+#: includes/class-themesartist-demo-importer.php:298
+msgid "Make sure you are using free version of Travel Blogz Theme"
+msgstr "Убедитесь, что Вы используете версию Free темы Travel Blogz"
+
+#: includes/class-themesartist-demo-importer.php:275
+msgid "Podcastin"
+msgstr "Podcastin"
+
+#: includes/class-themesartist-demo-importer.php:302
+msgid "Recipe Blogz"
+msgstr "Recipe Blogz"
+
+#: includes/class-themesartist-demo-importer.php:239
+msgid "Super Job"
+msgstr "Super Job"
+
+#. Description of the plugin
+#: themesartist-demo-importer.php
+msgid "This plugin is used to import demo content of all free version Themes Artist themes."
+msgstr "Этот плагин используется для импорта содержимого демо всех тем Themes Artist в версии Free."
+
+#: includes/class-themesartist-demo-importer.php:293
+msgid "Travel Blogz"
+msgstr "Travel Blogz"
