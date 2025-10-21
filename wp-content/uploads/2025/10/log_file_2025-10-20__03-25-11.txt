@@ -1,0 +1,55 @@
+
+---Загрузить файлы---
+Файл Redux не был загружен. Ошибка: Файл не предоставлен.
+
+---Загрузить файлы---
+Файлы импорта были успешно загружены!
+Начальное максимальное время выполнения = 30
+Информация о файлах:
+Сайт URL = http://127.0.0.1:8000
+Файл данных = /var/www/html/wp-content/uploads/2025/10/jobclub.xml
+Файл виджета = /var/www/html/wp-content/uploads/2025/10/jobclub.wie
+Файл настройки темы = /var/www/html/wp-content/uploads/2025/10/jobclub.dat
+Файлы Redux:
+не определено!
+
+------
+Новый вызов AJAX!
+[WARNING] Failed to import job_listing_category Content Writer
+[WARNING] Failed to import job_listing_category Customer
+[WARNING] Failed to import job_listing_category Data Science
+[WARNING] Failed to import job_listing_category Design
+[WARNING] Failed to import job_listing_category Development
+[WARNING] Failed to import job_listing_category Engineering
+[WARNING] Failed to import job_listing_category Finance
+[WARNING] Failed to import job_listing_category Marketing
+
+
+---Импорт виджетов---
+Боковая панель : 
+
+Блок - Нет заголовка - Импортировано
+Блок - Нет заголовка - Импортировано
+Блок - Нет заголовка - Импортировано
+Блок - Нет заголовка - Импортировано
+Блок - Нет заголовка - Импортировано
+
+Виджет подвала Jobclub1 : 
+
+Текст - About Company - Импортировано
+
+Виджет подвала Jobclub2 : 
+
+Меню навигации - Links - Импортировано
+
+Виджет подвала Jobclub3 : 
+
+Текст - Support - Импортировано
+
+
+
+---Импорт настроек темы---
+Импорт настроек темы завершен!
+
+---ocdi/after_import---
+

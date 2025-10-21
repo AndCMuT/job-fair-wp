@@ -1,0 +1,44 @@
+
+---Downloaded files---
+The import files for: Joblook were successfully downloaded!
+Initial max execution time = 360
+Files info:
+Site URL = https://demo.themesartist.com/jobclub
+Data file = /home/u137816479/domains/themesartist.com/public_html/demo/jobclub/wp-content/uploads/2025/03/demo-content-import-file_2025-03-31__03-30-40.xml
+Widget file = /home/u137816479/domains/themesartist.com/public_html/demo/jobclub/wp-content/uploads/2025/03/demo-widgets-import-file_2025-03-31__03-30-40.json
+Customizer file = /home/u137816479/domains/themesartist.com/public_html/demo/jobclub/wp-content/uploads/2025/03/demo-customizer-import-file_2025-03-31__03-30-40.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+Joblook Footer Widget1 : 
+
+Text - About Company - Imported
+
+Joblook Footer Widget2 : 
+
+Navigation Menu - Links - Imported
+
+Joblook Footer Widget3 : 
+
+Text - Support - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

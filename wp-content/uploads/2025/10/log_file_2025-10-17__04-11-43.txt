@@ -1,0 +1,3 @@
+
+---Загруженные файлы---
+Ошибка при загрузке файла из: <strong>http://127.0.0.1:8000/wp-content/plugins/themes-artist-demo-importer/public/demo/jobclub/jobclub.xml</strong>!<br>Причина: http_request_failed - cURL error 7: Failed to connect to 127.0.0.1 port 8000 after 0 ms: Couldn't connect to server.<br>
