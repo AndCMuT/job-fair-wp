@@ -63,10 +63,11 @@ header {
     gap: 50px;
 
 }
-.nav-link {
+.nav-item {
     min-width: 100px;
 }
-.nav-link > a{
+
+.nav-link {
     display: block;
     height: 90px;
     line-height: 90px;

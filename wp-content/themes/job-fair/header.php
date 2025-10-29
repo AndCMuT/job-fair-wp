@@ -12,12 +12,17 @@
     <header>
         <div class="logo"><?php the_custom_logo() ?></div>
         <div class="navbar">
-            <ul class="list-navigation">
-                <li class="nav-link"><a href="index.html">Главная</a></li>
-                <li class="nav-link"><a href="">О нас</a></li>
-                <li class="nav-link"><a href="">Новости</a></li>
-                <li class="nav-link"><a href="">Контакты</a></li>
-            </ul>
+            <!-- <ul class="list-navigation">
+                <li class="nav-item"><a href="index.html">Главная</a></li>
+                <li class="nav-item"><a href="">О нас</a></li>
+                <li class="nav-item"><a href="">Новости</a></li>
+                <li class="nav-item"><a href="">Контакты</a></li>
+            </ul> -->
+            <?php wp_nav_menu( [
+                'theme_location'  => 'header-menu',
+                'container_class' => 'navbar',
+                'menu_class'      => 'list-navigation'
+            ]) ?>
         </div>
         <div class="signup">
             <a href="" class="signup-link">Вход</a>
