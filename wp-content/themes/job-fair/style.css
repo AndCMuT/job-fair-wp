@@ -32,6 +32,9 @@ body {
     font-family: 'Montserrat', san-serif;
     background-color: #F3F4F6;
 }
+main {
+    min-height: 75vh;
+}
 /* Header */
 
 header {
@@ -275,7 +278,6 @@ footer {
     width: 100%;
     background-color: #1E3A8A;
     height: 100px;
-    margin-top: 90px;
 }
 .footer-logo {
     margin-left: 20px;
@@ -285,5 +287,5 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 10px;
+    margin: 0 10px;
 }
