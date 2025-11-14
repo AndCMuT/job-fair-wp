@@ -1,6 +1,6 @@
         <footer>
             <div class="container-footer">
-                <div class="footer-logo"><img src="/img/Job-Fair.png" alt="logo2"></div>
+                <div class="footer-logo"><img src="./assets/img/Job-Fair.png" alt="logo2"></div>
                 <div class="navbar">
                     <ul class="list-navigation">
                         <li class="nav-link"><a href="">Главная</a></li>

@@ -64,10 +64,21 @@
         'public' => true,
         'menu_icon' => 'dashicons-businessman',
         'has_archive' => true,
-        'supports' => ['title', 'editor', 'custom-fields', 'thumbnail'],
+        'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
         'rewrite' => ['slug' => 'vacancies'],
     ]);
-}
-add_action('init', 'jobfair_register_vacancy_cpt');
+    }
+    add_action('init', 'jobfair_register_vacancy_cpt');
+
+// Настройки для вывода анонса вакансии на главной странице 
+    function jobfair_excerpt_length($length) {
+        return 25; // количество слов
+    }
+    add_filter('excerpt_length', 'jobfair_excerpt_length');
+
+    function jobfair_excerpt_more($more) {
+        return '...'; // замена символов в конце анонса с [...] на ...
+    }
+    add_filter('excerpt_more', 'jobfair_excerpt_more');
 
 ?>

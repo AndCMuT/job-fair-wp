@@ -36,69 +36,45 @@
         </section>
         <section class="vacancies">
             <h2 class="section-header">Подобрали для вас</h2>
-            <!-- Vacancy 1 -->
-            <div class="vacancy">
-                <h3 class="vacancy-name">Системный администратор</h3>
-                <div class="container__vacancy-info">
-                    <div class="container__info-company-fork">
-                        <h4 class="company-name">Kirlin LLC</h4>
-                        <p>170 000 руб.</p>
+
+            <?php
+            // Создаём запрос на вакансии
+            $vacancies = new WP_Query([
+                'post_type'      => 'vacancy', // тип записи
+                'posts_per_page' => 6,         // сколько выводить
+                'orderby'        => 'date',    // сортировка
+                'order'          => 'DESC'     // сначала новые
+            ]);
+
+            if ($vacancies->have_posts()) :
+                while ($vacancies->have_posts()) : $vacancies->the_post();
+                    $company = get_post_meta(get_the_ID(), 'company_name', true);
+                    $salary = get_post_meta(get_the_ID(), 'salary', true);
+                    ?>
+                    
+                    <div class="vacancy">
+                        <h3 class="vacancy-name">
+                            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                        </h3>
+                        <div class="container__vacancy-info">
+                            <div class="container__info-company-fork">
+                                <h4 class="company-name"><?php echo esc_html($company); ?></h4>
+                                <p><?php echo esc_html($salary); ?> ₽</p>
+                            </div>
+                            <div class="container-info__about-work">
+                                <?php the_excerpt(); ?>
+                            </div>
+                            <div class="container-btn">
+                                <button type="button" class="apply">Откликнуться</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="container-info__about-work">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem blanditiis, accusantium iste maxime quae incidunt exercitationem recusandae repellat error, ullam dolores tempora quas sunt ipsam odit pariatur tenetur unde nobis</p>
-                    </div>
-                    <div class="container-btn">
-                        <button type="button" class="apply">Откликнуться</button>
-                    </div>
-                </div>
-            </div>
-            <!-- Vacancy 2 --> 
-            <div class="vacancy">
-                <h3 class="vacancy-name">DevOps инженер</h3>
-                <div class="container__vacancy-info">
-                    <div class="container__info-company-fork">
-                        <h4 class="company-name">Crooks, Deckow and Lubowitz</h4>
-                        <p>170 000 руб.</p>
-                    </div>
-                    <div class="container-info__about-work">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem blanditiis, accusantium iste maxime quae incidunt exercitationem recusandae repellat error, ullam dolores tempora quas sunt ipsam odit pariatur tenetur unde nobis</p>
-                    </div>
-                    <div class="container-btn">
-                        <button type="button" class="apply">Откликнуться</button>
-                    </div>
-                </div>
-            </div>
-            <!-- Vacancy 3 --> 
-            <div class="vacancy">
-                <h3 class="vacancy-name">UX/UI дизайнер</h3>
-                <div class="container__vacancy-info">
-                    <div class="container__info-company-fork">
-                        <h4 class="company-name">Swift - Miller</h4>
-                        <p>170 000 руб.</p>
-                    </div>
-                    <div class="container-info__about-work">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem blanditiis, accusantium iste maxime quae incidunt exercitationem recusandae repellat error, ullam dolores tempora quas sunt ipsam odit pariatur tenetur unde nobis</p>
-                    </div>
-                    <div class="container-btn">
-                        <button type="button" class="apply">Откликнуться</button>
-                    </div>
-                </div>
-            </div>
-            <!-- Vacancy 3 --> 
-            <div class="vacancy">
-                <h3 class="vacancy-name">UX/UI дизайнер</h3>
-                <div class="container__vacancy-info">
-                    <div class="container__info-company-fork">
-                        <h4 class="company-name">Swift - Miller</h4>
-                        <p>170 000 руб.</p>
-                    </div>
-                    <div class="container-info__about-work">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem blanditiis, accusantium iste maxime quae incidunt exercitationem recusandae repellat error, ullam dolores tempora quas sunt ipsam odit pariatur tenetur unde nobis</p>
-                    </div>
-                    <div class="container-btn">
-                        <button type="button" class="apply">Откликнуться</button>
-                    </div>
-                </div>
-            </div>
+                <?php
+                endwhile;
+                wp_reset_postdata();
+            else :
+                echo '<p>Пока нет опубликованных вакансий.</p>';
+            endif;
+            ?>
         </section>
 <?php get_footer(); ?>
