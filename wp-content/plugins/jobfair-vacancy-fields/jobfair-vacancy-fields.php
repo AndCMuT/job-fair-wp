@@ -28,6 +28,7 @@ add_action('add_meta_boxes', 'jobfair_add_vacancy_metaboxes');
 function jobfair_vacancy_fields($post) {
     $company = get_post_meta($post->ID, 'company_name', true);
     $salary = get_post_meta($post->ID, 'salary', true);
+    $experience = get_post_meta($post->ID, 'experience', true);
     ?>
     <p>
         <label for="company_name">Компания:</label><br>
@@ -36,6 +37,10 @@ function jobfair_vacancy_fields($post) {
     <p>
         <label for="salary">Зарплата:</label><br>
         <input type="text" name="salary" id="salary" value="<?php echo esc_attr($salary); ?>" style="width:100%">
+    </p>
+    <p>
+        <label for="experience">Опыт работы:</label><br>
+        <input type="text" name="experience" id="experience" value="<?php echo esc_attr($experience); ?>" style="width:100%">
     </p>
     <?php
 }
@@ -47,6 +52,9 @@ function jobfair_save_vacancy_fields($post_id) {
     }
     if (array_key_exists('salary', $_POST)) {
         update_post_meta($post_id, 'salary', sanitize_text_field($_POST['salary']));
+    }
+    if (array_key_exists('experience', $_POST)) {
+        update_post_meta($post_id, 'experience', sanitize_text_field($_POST['experience']));
     }
 }
 add_action('save_post', 'jobfair_save_vacancy_fields');

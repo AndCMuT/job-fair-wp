@@ -253,9 +253,12 @@ header {
     margin-bottom: 20px;
     font-size: 1.35em;
 }
+.salary {
+    font-size: 1.2em;
+}
 .company-name {
     margin: 10px 0;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 .container__vacancy-info {
     display: flex;
@@ -264,11 +267,11 @@ header {
     align-items: center;
 }
 .container__info-company-fork {
-    width: 20%;
-    /* margin: 10px; */
+    width: 40%;
+
 }
 .container-info__about-work {
-    width: 60%;
+    width: 50%;
 }
 .container-btn {
     width: 15%;

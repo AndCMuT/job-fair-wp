@@ -50,6 +50,8 @@
                 while ($vacancies->have_posts()) : $vacancies->the_post();
                     $company = get_post_meta(get_the_ID(), 'company_name', true);
                     $salary = get_post_meta(get_the_ID(), 'salary', true);
+                    $experience = get_post_meta(get_the_ID(), 'experience', true);
+                    $terms = get_the_terms( get_the_ID( ), 'location' )
                     ?>
                     
                     <div class="vacancy">
@@ -58,11 +60,14 @@
                         </h3>
                         <div class="container__vacancy-info">
                             <div class="container__info-company-fork">
-                                <h4 class="company-name"><?php echo esc_html($company); ?></h4>
-                                <p><?php echo esc_html($salary); ?> ₽</p>
+                                <h4 class="salary"><?php echo esc_html($salary); ?> </h4> 
+                                <h5 class="company-name"><?php echo esc_html($company); ?></h5>
+                                
                             </div>
                             <div class="container-info__about-work">
-                                <?php the_excerpt(); ?>
+                                <p><?php echo esc_html($terms[0]->name) ?></p>
+                                <p><?php echo esc_html($experience) ?></p>
+                                <!-- <?php the_excerpt(); ?> -->
                             </div>
                             <div class="container-btn">
                                 <button type="button" class="apply">Откликнуться</button>

@@ -49,26 +49,7 @@
     };
     add_filter( 'nav_menu_link_attributes', 'add_link_classes', 10, 1 );
 
-// Вакансии
-    function jobfair_register_vacancy_cpt() {
-    register_post_type('vacancy', [
-        'labels' => [
-            'name' => 'Вакансии',
-            'singular_name' => 'Вакансия',
-            'add_new' => 'Добавить вакансию',
-            'add_new_item' => 'Добавить новую вакансию',
-            'edit_item' => 'Редактировать вакансию',
-            'new_item' => 'Новая вакансия',
-            'view_item' => 'Просмотр вакансии',
-        ],
-        'public' => true,
-        'menu_icon' => 'dashicons-businessman',
-        'has_archive' => true,
-        'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
-        'rewrite' => ['slug' => 'vacancies'],
-    ]);
-    }
-    add_action('init', 'jobfair_register_vacancy_cpt');
+
 
 // Настройки для вывода анонса вакансии на главной странице 
     function jobfair_excerpt_length($length) {
