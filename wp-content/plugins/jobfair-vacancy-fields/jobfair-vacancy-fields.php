@@ -29,6 +29,7 @@ function jobfair_vacancy_fields($post) {
     $company = get_post_meta($post->ID, 'company_name', true);
     $salary = get_post_meta($post->ID, 'salary', true);
     $experience = get_post_meta($post->ID, 'experience', true);
+    $remote = get_post_meta($post->ID, 'remote_work', true);
     ?>
     <p>
         <label for="company_name">Компания:</label><br>
@@ -41,6 +42,13 @@ function jobfair_vacancy_fields($post) {
     <p>
         <label for="experience">Опыт работы:</label><br>
         <input type="text" name="experience" id="experience" value="<?php echo esc_attr($experience); ?>" style="width:100%">
+    </p>
+    <p>
+        <label for="remote_work">Возможность удалённой работы
+            <input type="checkbox" name="remote_work" value="1"
+                <?php checked($remote, '1'); ?>>
+        </label>
+        
     </p>
     <?php
 }
@@ -55,6 +63,11 @@ function jobfair_save_vacancy_fields($post_id) {
     }
     if (array_key_exists('experience', $_POST)) {
         update_post_meta($post_id, 'experience', sanitize_text_field($_POST['experience']));
+    }
+    if (isset($_POST['remote_work'])) {
+        update_post_meta($post_id, 'remote_work', '1');
+    } else {
+        delete_post_meta($post_id, 'remote_work');
     }
 }
 add_action('save_post', 'jobfair_save_vacancy_fields');

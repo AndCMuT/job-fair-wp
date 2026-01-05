@@ -51,9 +51,10 @@
                     $company = get_post_meta(get_the_ID(), 'company_name', true);
                     $salary = get_post_meta(get_the_ID(), 'salary', true);
                     $experience = get_post_meta(get_the_ID(), 'experience', true);
-                    $terms = get_the_terms( get_the_ID( ), 'location' )
+                    $terms = get_the_terms( get_the_ID( ), 'location' );
+                    $remote = get_post_meta(get_the_ID(), 'remote_work', true);
                     ?>
-                    
+                    <a href="<?php the_permalink(); ?>">
                     <div class="vacancy">
                         <h3 class="vacancy-name">
                             <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
@@ -62,12 +63,17 @@
                             <div class="container__info-company-fork">
                                 <h4 class="salary"><?php echo esc_html($salary); ?> </h4> 
                                 <h5 class="company-name"><?php echo esc_html($company); ?></h5>
-                                
                             </div>
                             <div class="container-info__about-work">
-                                <p><?php echo esc_html($terms[0]->name) ?></p>
-                                <p><?php echo esc_html($experience) ?></p>
-                                <!-- <?php the_excerpt(); ?> -->
+                                <?php if ($terms && !is_wp_error($terms)) : ?>
+                                    <p><?php echo esc_html($terms[0]->name) ?></p>
+                                <?php endif; ?>
+                                <?php if (!empty($experience)) : ?>
+                                    <p><?php echo esc_html($experience) ?></p>
+                                <?php endif; ?>
+                                <?php if ($remote === '1') : ?>
+                                    <p>Можно удалённо</p>
+                                <?php endif; ?>
                             </div>
                             <div class="container-btn">
                                 <button type="button" class="apply">Откликнуться</button>
