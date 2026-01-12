@@ -86,7 +86,7 @@ header {
 /* =============== Sign in, sign up =============== */
 
 .signup {
-    margin-top: 5px;
+    margin: 5px 10px 0px;
     display: flex;
     flex-direction: column;
     width: 15%;
@@ -278,6 +278,17 @@ header {
     width: 40%;
 
 }
+
+.salary {
+    line-height: 1.5em;
+    font-size: 1.25em;
+    font-weight: 600;
+}
+.company-name {
+    line-height: 1.25em;
+    font-size: 1em;
+    font-weight: normal;
+}
 .container-info__about-work {
     width: 50%;
     display: flex;
@@ -313,4 +324,6 @@ footer {
     justify-content: space-around;
     align-items: center;
     margin: 0 10px;
+    color: #fff;
 }
+

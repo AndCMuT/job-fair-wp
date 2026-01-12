@@ -1,17 +1,32 @@
 <?php
     add_action('wp_enqueue_scripts', 'add_styles');
     add_action('after_setup_theme', 'add_logo');
+    add_theme_support('post-thumbnails');
 
     function add_styles() {
         wp_enqueue_style('jobfair-style', get_stylesheet_uri(), [], time());
 
-        if (is_singular('vacancy')) {
+        if (is_page_template('news.php')) {
         wp_enqueue_style(
-            'jobfair-single-vacancy',
-            get_template_directory_uri() . '/assets/css/single-vacancy.css',
-            array('jobfair-style'), // зависимости
-            filemtime(get_template_directory() . '/assets/css/single-vacancy.css') // автообновление при изменениях
+            'jobfair-news-page',
+            get_template_directory_uri() . '/assets/css/news.css',
+            array('jobfair-style'),
+            filemtime(get_template_directory() . '/assets/css/news.css')
         );
+        } elseif (is_singular('vacancy')) {
+            wp_enqueue_style(
+                'jobfair-single-vacancy',
+                get_template_directory_uri() . '/assets/css/single-vacancy.css',
+                array('jobfair-style'), // зависимости
+                filemtime(get_template_directory() . '/assets/css/single-vacancy.css') // автообновление при изменениях
+            );
+        } elseif (is_singular('news')) {
+            wp_enqueue_style( 
+                'jobfair-single-news',
+                get_template_directory_uri( ) . '/assets/css/single-news.css',
+                array('jobfair-style'),
+                filemtime(get_template_directory() . '/assets/css/single-news.css')
+            );
         }
     }
     function add_logo() {
@@ -50,10 +65,9 @@
     add_filter( 'nav_menu_link_attributes', 'add_link_classes', 10, 1 );
 
 
-
 // Настройки для вывода анонса вакансии на главной странице 
     function jobfair_excerpt_length($length) {
-        return 25; // количество слов
+        return 40; // количество слов
     }
     add_filter('excerpt_length', 'jobfair_excerpt_length');
 

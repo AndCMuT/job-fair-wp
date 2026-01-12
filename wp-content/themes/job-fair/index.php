@@ -61,8 +61,8 @@
                         </h3>
                         <div class="container__vacancy-info">
                             <div class="container__info-company-fork">
-                                <h4 class="salary"><?php echo esc_html($salary); ?> </h4> 
-                                <h5 class="company-name"><?php echo esc_html($company); ?></h5>
+                                <p class="salary"><?php echo esc_html($salary); ?> </p> 
+                                <p class="company-name"><?php echo esc_html($company); ?></p>
                             </div>
                             <div class="container-info__about-work">
                                 <?php if ($terms && !is_wp_error($terms)) : ?>
