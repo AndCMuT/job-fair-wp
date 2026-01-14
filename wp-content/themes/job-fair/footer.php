@@ -19,7 +19,7 @@
                     <!-- Скрытое поле под ID вакансии -->
                     <input type="hidden" name="vacancy_id" value="">
                     <p class="form-field">
-                        <label for="application_name">Имя</label>
+                        <label for="applicant_name">Имя</label>
                         <input type="text" id="applicant_name" name="applicant_name" required>
                     </p>
                     <p class="form-field">
@@ -27,20 +27,20 @@
                         <input type="email" id="applicant_email" name="applicant_email" required>
                     </p>
                     <p class="form-field">
-                        <label for="application_phone">Телефон</label>
+                        <label for="applicant_phone">Телефон</label>
                         <input type="text" id="applicant_phone" name="applicant_phone">
-                    </p>
-                    <p class="form-field">
-                        <label for="about_applicant">О себе</label>
-                        <textarea id="about_applicant" name="about_applicant" rows="4"></textarea>
                     </p>
                     <p class="form-field">
                         <label for="resume_link">Ссылка на резюме</label>
                         <input type="url" id="resume_link" name="resume_link">
                     </p>
+                    <p class="form-field">
+                        <label for="about_applicant">О себе</label>
+                        <textarea id="about_applicant" name="about_applicant" rows="4"></textarea>
+                    </p>
                     <div class="form-actions">
                         <button type="submit" class="btn-submit">
-                            Отправить отклик
+                            Отправить
                         </button>
                     </div>
                 </form>

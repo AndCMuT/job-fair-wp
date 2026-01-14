@@ -368,4 +368,55 @@ footer {
 body.modal-open {
     overflow: hidden;
 }
-
+.modal-body{
+    margin: 20px 0px;
+}
+.apply-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.form-field {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.form-field > label {
+    width: 30%;
+    line-height: 30px;
+}
+.form-field > input {
+    height: 30px;
+}
+.form-field > input, textarea {
+    width: 70%;
+    margin: 5px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 0 4px 4px rgba(117, 117, 117, 0.349);
+}
+.form-actions {
+    display: flex;
+    justify-content: center;
+}
+.btn-submit {
+    align-self: center;
+    width: 150px;
+    height: 35px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    color: #1E3A8A;
+    background-color: #F97316;;
+    font-size: larger;
+    font-weight: 400;
+    box-shadow: 0 0 4px 4px rgba(117, 117, 117, 0.349);
+    &:hover {
+        cursor: pointer;
+        background-color: #ff7d20;
+        box-shadow: 0 0 5px 5px rgba(97, 97, 97, 0.404)
+    }
+}
