@@ -76,4 +76,11 @@
     }
     add_filter('excerpt_more', 'jobfair_excerpt_more');
 
+    wp_enqueue_script( 
+    'jobfair-modal',
+    get_template_directory_uri() . '/assets/JS/modal.js',
+    [],
+    fileatime(get_template_directory() . '/assets/JS/modal.js'),
+    true
+    );
 ?>

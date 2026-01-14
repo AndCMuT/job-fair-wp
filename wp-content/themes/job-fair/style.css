@@ -211,7 +211,7 @@ header {
     height: 80px;
     display: block;
 }
-.apply {
+.apply-btn {
     align-self: center;
     width: 150px;
     height: 35px;
@@ -325,5 +325,47 @@ footer {
     align-items: center;
     margin: 0 10px;
     color: #fff;
+}
+
+/* =============== modal =============== */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+.modal-overlay.is-open {
+    opacity: 1;
+    pointer-events: auto;
+}
+.modal-window {
+    background-color: #fff;
+    width: 100%;
+    max-width: 500px;
+    padding: 24px;
+    border-radius: 8px;
+    position: relative;
+    transform: translateY(-20px);
+    transition: transform 0.3 ease;
+}
+.modal-overlay.is-open .modal-window {
+    transform: translateY(0);
+}
+.modal-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+body.modal-open {
+    overflow: hidden;
 }
 

@@ -27,3 +27,11 @@ a:link, :visited {
     text-decoration: none;
     color: black;
 }
+
+.paginate-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}

@@ -11,6 +11,8 @@ if ( !defined('ABSPATH') ) {
     exit;
 }
 
+
+
 // Новости
 function jobfair_register_news_cpt() {
     register_post_type('news', [
@@ -31,7 +33,9 @@ function jobfair_register_news_cpt() {
         'show_in_rest' => 'true',
     ]);
 }
+
 add_action('init', 'jobfair_register_news_cpt');
+
 
 function jobfair_register_news_taxonomy() {
     register_taxonomy( 'news_category', 'news', [
@@ -42,6 +46,7 @@ function jobfair_register_news_taxonomy() {
         'hierarchical' => true,
         'public' => true,
         'show_in_rest' => true,
+        'show_admin_column' => true,
     ]);
 }
 
@@ -98,12 +103,13 @@ add_action('save_post_news', 'jobfair_save_news_fields');
 function jobfair_news_shortcode($atts) {
 
     $atts = shortcode_atts([
-        'count' => 5,
+        'count' => 2,
     ], $atts);
-
+    $paged = max(1, get_query_var('paged'), get_query_var('page'));
     $query = new WP_Query([
         'post_type' => 'news',
-        'post_per_page' => (int)$atts['count'],
+        'post_per_page' => (int) $atts['count'],
+        'paged' => $paged,
     ]);
 
     ob_start();
@@ -129,8 +135,14 @@ function jobfair_news_shortcode($atts) {
             <?php
         endwhile;
         wp_reset_postdata();
-    endif;
-
+    endif; ?>
+    <div class="paginate-links">
+        <?php echo paginate_links([
+            'total' => $query->max_num_pages,
+        ]); 
+        ?>
+    </div>
+    <?php
     return ob_get_clean();
 }
 

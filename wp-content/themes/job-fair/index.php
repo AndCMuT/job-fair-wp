@@ -76,7 +76,7 @@
                                 <?php endif; ?>
                             </div>
                             <div class="container-btn">
-                                <button type="button" class="apply">Откликнуться</button>
+                                <button class="apply-btn">Откликнуться</button>
                             </div>
                         </div>
                     </div>
