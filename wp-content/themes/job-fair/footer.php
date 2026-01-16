@@ -15,20 +15,20 @@
             </div>
             <!-- Тело -->
             <div class="modal-body">
-                <form class="apply-form" method="post">
+                <form id="apply-form" class="apply-form" method="post">
                     <!-- Скрытое поле под ID вакансии -->
-                    <input type="hidden" name="vacancy_id" value="">
+                    <input type="hidden" name="vacancy_id" value="<?php echo get_the_ID(); ?>">
                     <p class="form-field">
                         <label for="applicant_name">Имя</label>
-                        <input type="text" id="applicant_name" name="applicant_name" required>
+                        <input type="text" id="applicant_name" name="name" required>
                     </p>
                     <p class="form-field">
                         <label for="applicant_email">Email</label>
-                        <input type="email" id="applicant_email" name="applicant_email" required>
+                        <input type="email" id="applicant_email" name="email" required>
                     </p>
                     <p class="form-field">
                         <label for="applicant_phone">Телефон</label>
-                        <input type="text" id="applicant_phone" name="applicant_phone">
+                        <input type="text" id="applicant_phone" name="phone">
                     </p>
                     <p class="form-field">
                         <label for="resume_link">Ссылка на резюме</label>
@@ -36,7 +36,7 @@
                     </p>
                     <p class="form-field">
                         <label for="about_applicant">О себе</label>
-                        <textarea id="about_applicant" name="about_applicant" rows="4"></textarea>
+                        <textarea id="about_applicant" name="about" rows="4"></textarea>
                     </p>
                     <div class="form-actions">
                         <button type="submit" class="btn-submit">
@@ -44,6 +44,7 @@
                         </button>
                     </div>
                 </form>
+                <div id="apply-result"></div>
             </div>
         </div>
     </div>

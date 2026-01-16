@@ -35,5 +35,28 @@ document.addEventListener('DOMContentLoaded', () => {
             closeModal();
         }
     });
+});
 
+document.addEventListener('DOMContentLoaded', function(){
+    const form = document.getElementById('apply-form');
+    if (!form) return;
+
+    form.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        const formData = new FormData(this);
+        formData.append('action', 'jobfair_submit_application');
+
+        fetch('/wp-admin/admin-ajax.php', {
+            method: 'POST',
+            body: formData
+        })
+        .then(res => res.json())
+        .then(data => {
+            document.getElementById('apply-result').innerText = data.message;
+            if (data.success) {
+                this.reset();
+            }
+        });
+    });
 })

@@ -19,7 +19,7 @@
             </div>
 
             <div class="vacancy-actions">
-                <button class="apply">Откликнуться</button>
+                <button class="apply-btn">Откликнуться</button>
             </div>
         </article>
 
