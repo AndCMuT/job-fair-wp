@@ -394,6 +394,7 @@ body.modal-open {
 .form-field > input, textarea {
     width: 70%;
     margin: 5px;
+    padding: 5px;
     border: none;
     border-radius: 7px;
     box-shadow: 0 0 4px 4px rgba(117, 117, 117, 0.349);

@@ -91,7 +91,7 @@ function jobfair_render_application_page() {
         ['id' => intval($_GET['delete'])],
         ['%d']
     );
-    echo '<div class="updated"><p>Отклик</p></div>';
+    echo '<div class="updated"><p>Удален</p></div>';
     }
 
     echo '<div class="wrap">';

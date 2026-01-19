@@ -17,26 +17,26 @@
             <div class="modal-body">
                 <form id="apply-form" class="apply-form" method="post">
                     <!-- Скрытое поле под ID вакансии -->
-                    <input type="hidden" name="vacancy_id" value="<?php echo get_the_ID(); ?>">
+                    <input type="hidden" name="vacancy_id" id="vacancy_id" value="<?php echo get_the_ID(); ?>">
                     <p class="form-field">
                         <label for="applicant_name">Имя</label>
-                        <input type="text" id="applicant_name" name="name" required>
+                        <input type="text" id="applicant_name" name="name" required placeholder="Введите своё имя">
                     </p>
                     <p class="form-field">
                         <label for="applicant_email">Email</label>
-                        <input type="email" id="applicant_email" name="email" required>
+                        <input type="email" id="applicant_email" name="email" required placeholder="email">
                     </p>
                     <p class="form-field">
                         <label for="applicant_phone">Телефон</label>
-                        <input type="text" id="applicant_phone" name="phone">
+                        <input type="text" id="applicant_phone" name="phone" placeholder="Номер телефона">
                     </p>
                     <p class="form-field">
                         <label for="resume_link">Ссылка на резюме</label>
-                        <input type="url" id="resume_link" name="resume_link">
+                        <input type="url" id="resume_link" name="resume_link" placeholder="Ссылка на резюме">
                     </p>
                     <p class="form-field">
                         <label for="about_applicant">О себе</label>
-                        <textarea id="about_applicant" name="about" rows="4"></textarea>
+                        <textarea id="about_applicant" name="about" rows="4" placeholder="Напиши здесь небольшое сопроводительное письмо"></textarea>
                     </p>
                     <div class="form-actions">
                         <button type="submit" class="btn-submit">

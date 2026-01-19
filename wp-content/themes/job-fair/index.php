@@ -76,7 +76,7 @@
                                 <?php endif; ?>
                             </div>
                             <div class="container-btn">
-                                <button class="apply-btn">Откликнуться</button>
+                                <button class="apply-btn" data-vacancy-id="<?php echo get_the_ID(); ?>">Откликнуться</button>
                             </div>
                         </div>
                     </div>

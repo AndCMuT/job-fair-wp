@@ -17,10 +17,40 @@ document.addEventListener('DOMContentLoaded', () => {
         modalOverlay.setAttribute('aria-hidden', 'true');
         document.body.classList.remove('modal-open');
     }
-
+    const form = document.getElementById('apply-form');
+        if (!form) return;
     openButtons.forEach(button => {
-        button.addEventListener('click', openModal);
+        button.addEventListener('click', () => {
+        const vacancyId = button.dataset.vacancyId;
+
+        document.querySelector('#vacancy_id').value = vacancyId;
+        openModal();
+        console.log(vacancyId)
+        });
     });
+
+    form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        
+        const formData = new FormData(this);
+        formData.append('action', 'jobfair_submit_application');
+        for (let pair of formData.entries()) {
+            console.log(pair[0] + ': ' + pair[1]);
+        }
+        fetch('/wp-admin/admin-ajax.php', {
+            method: 'POST',
+            body: formData
+        })
+        .then(res => res.json())
+        .then(data => {
+            document.getElementById('apply-result').innerText = data.message;
+            if (data.success) {
+                this.reset();
+            }
+        });
+    });
+
+
 
     modalClose.addEventListener('click', closeModal);
 
@@ -37,26 +67,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-document.addEventListener('DOMContentLoaded', function(){
-    const form = document.getElementById('apply-form');
-    if (!form) return;
 
-    form.addEventListener('submit', function (e) {
-        e.preventDefault();
 
-        const formData = new FormData(this);
-        formData.append('action', 'jobfair_submit_application');
+// document.addEventListener('DOMContentLoaded', function(){
+//     
 
-        fetch('/wp-admin/admin-ajax.php', {
-            method: 'POST',
-            body: formData
-        })
-        .then(res => res.json())
-        .then(data => {
-            document.getElementById('apply-result').innerText = data.message;
-            if (data.success) {
-                this.reset();
-            }
-        });
-    });
-})
+
+// })
