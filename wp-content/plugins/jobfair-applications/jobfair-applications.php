@@ -85,6 +85,7 @@ function jobfair_render_application_page() {
     $table = $wpdb->prefix . 'jobfair_applications';
     $applications = $wpdb->get_results("SELECT * FROM $table ORDER BY created_at DESC");
 
+
     if (isset($_GET['delete'])) {
     $wpdb->delete(
         $table,
@@ -116,10 +117,22 @@ function jobfair_render_application_page() {
         </thead><tbody>';
 
     foreach ($applications as $app) {
+        $vacancy_id = (int) $app->vacancy_id;
+        $title = get_the_title($vacancy_id);
+        $edit_link = get_edit_post_link($vacancy_id);
+
         echo '<tr>';
-        echo '<td>' . esc_html($app->id) . '</td>';
-        echo '<td>' . esc_html($app->vacancy_id) . '</td>';
-        echo '<td>' . esc_html($app->name) . '</td>';
+        echo '<td>' . esc_html($app->id) . '</td>'; ?>
+        <td>
+            <?php if ($title && $edit_link): ?>
+                <a href="<?php echo esc_url($edit_link); ?>">
+                    <?php echo esc_html($title); ?>
+                </a>
+            <?php else: ?>
+                <em>Вакансия удалена</em>
+            <?php endif; ?>
+        </td> <?php
+        echo '<td>' . esc_html($app->name) . '</em>';
         echo '<td>' . esc_html($app->email) . '</td>';
         echo '<td>' . esc_html($app->about) . '</td>';
         echo '<td><a href="' . esc_url($app->resume) . '" target="_blank">Ссылка</a></td>';
