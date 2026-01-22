@@ -54,7 +54,6 @@
                     $terms = get_the_terms( get_the_ID( ), 'location' );
                     $remote = get_post_meta(get_the_ID(), 'remote_work', true);
                     ?>
-                    <a href="<?php the_permalink(); ?>">
                     <div class="vacancy">
                         <h3 class="vacancy-name">
                             <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>

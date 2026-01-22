@@ -113,7 +113,7 @@ header {
 /* =============== Section search =============== */
 
 .section-search {
-    height: 400px;
+    height: 500px;
     background-color: #3B82F6;
     display: flex;
     flex-direction: column;
@@ -126,8 +126,9 @@ header {
 .section-search > h1 {
     font-size: 2.75rem;
     color: #F3F4F6;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 50px;
+    margin-left: 40px;
 }
 .form-search {
     display: flex;
@@ -260,9 +261,7 @@ header {
 .vacancy-name > a:visited {
     color: rgb(83, 83, 83);
 }
-.salary {
-    font-size: 1.2em;
-}
+
 .company-name {
     margin: 10px 0;
     font-size: 1em;
@@ -276,7 +275,6 @@ header {
 }
 .container__info-company-fork {
     width: 40%;
-
 }
 
 .salary {
@@ -319,13 +317,17 @@ footer {
     margin-left: 20px;
 }
 .container-footer {
+    height: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin: 0 10px;
     color: #fff;
 }
+/* .container-footer > p {
+    align-self: center;
+} */
 
 /* =============== modal =============== */
 .modal-overlay {
@@ -419,5 +421,85 @@ body.modal-open {
         cursor: pointer;
         background-color: #ff7d20;
         box-shadow: 0 0 5px 5px rgba(97, 97, 97, 0.404)
+    }
+}
+
+@media (max-width: 850px) {
+    header {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+    }
+    .logo {
+        margin: 10px;
+        order: 1;
+    }
+    .signup {
+        order: 2;
+    }
+    .navbar {
+        order: 3;
+        margin-top: 20px;
+    }
+    .list-navigation {
+        flex-direction: column;
+        margin: 10px 0;
+        gap: 25px;
+    }
+    .nav-item {
+        min-width: auto;
+    }
+    .nav-link {
+        width: auto;
+        height: auto;
+        line-height: 20px;
+    }
+    /* =============== Section search =============== */
+
+    .section-search {
+        justify-content: start;
+        padding-top: 50px;
+        border: none;
+    }
+
+    .section-search > h1 {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    .form-search {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .vacancy {
+        width: 80%;
+        height: auto;
+        align-items: start;
+    }
+    .vacancy-name {
+        font-size: 1.3em;
+    }
+    .container__vacancy-info {
+        flex-direction: column;
+    }
+    .container__info-company-fork {
+        width: 100%;
+    }
+    .salary {
+        font-size: 1em;
+        font-weight: 400;
+    }
+    .company-name {
+        margin: 10px 0;
+        font-size: .9em;
+    }
+    .container-info__about-work {
+        width: 100%;
+    }
+    .container-btn {
+        width: 100%;
+        margin: 0px 10px;
     }
 }
