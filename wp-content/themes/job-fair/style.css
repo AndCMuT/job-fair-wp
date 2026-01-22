@@ -426,10 +426,10 @@ body.modal-open {
 
 @media (max-width: 850px) {
     header {
-    width: 100%;
-    height: auto;
-    align-items: center;
-    flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        flex-direction: column;
     }
     .logo {
         margin: 10px;
@@ -440,7 +440,7 @@ body.modal-open {
     }
     .navbar {
         order: 3;
-        margin-top: 20px;
+        margin: 20px;
     }
     .list-navigation {
         flex-direction: column;

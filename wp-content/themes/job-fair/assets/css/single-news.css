@@ -28,3 +28,12 @@
 .about-news {
     margin-bottom: 0.5em;
 }
+
+@media (max-width: 850px) {
+    .news-container {
+        padding: 15px;
+    }
+    h2 {
+        font-size: 1.25em;
+    }
+}
