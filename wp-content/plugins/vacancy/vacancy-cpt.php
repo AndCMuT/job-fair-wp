@@ -51,7 +51,7 @@ function jobfair_register_location_taxonomy() {
         'hierarchical'      => false,   // false = как теги, true = как категории
         'show_ui'           => true,
         'show_admin_column' => true,
-        'show_in_rest'      => true,    // если используешь Gutenberg / REST
+        'show_in_rest'      => true,    
         'rewrite'           => array('slug' => 'location'),
     );
 

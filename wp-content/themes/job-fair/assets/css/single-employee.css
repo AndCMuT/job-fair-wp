@@ -1,0 +1,39 @@
+.single-employee {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.employee-container {
+    margin: 0 auto;
+    padding: 50px;
+    border: slategray solid 1.5px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 7px 8px rgba(83, 83, 83, 0.26);
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 30px;
+    line-height: 2em;
+}
+.about-employee > ul {
+    list-style-position: inside;
+    margin: 10px;
+    padding-left: 1.5em;
+}
+.about-employee > p {
+    margin-bottom: 1em;
+    font-weight: 500;
+}
+.about-employee {
+    margin-bottom: 0.5em;
+}
+
+@media (max-width: 850px) {
+    .employee-container {
+        padding: 15px;
+    }
+    h2 {
+        font-size: 1.25em;
+    }
+}

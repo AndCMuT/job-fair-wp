@@ -47,8 +47,7 @@ function jobfair_vacancy_fields($post) {
         <label for="remote_work">Возможность удалённой работы
             <input type="checkbox" name="remote_work" value="1"
                 <?php checked($remote, '1'); ?>>
-        </label>
-        
+        </label>        
     </p>
     <?php
 }

@@ -70,7 +70,7 @@ function jobfair_news_fields($post) {
 
     <p>
         <label for="news_source">Источник новости:</label><br>
-        <input type="text" name="news_source" value="<?php echo esc_attr( $source ); ?>" style="width:100%" >
+        <input type="text" name="news_source" value="<?php echo esc_attr($source); ?>" style="width:100%" >
     </p>
     <p>
         <label for="event_date">Дата публикации</label>

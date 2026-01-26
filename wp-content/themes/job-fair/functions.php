@@ -27,6 +27,12 @@
                 array('jobfair-style'),
                 filemtime(get_template_directory() . '/assets/css/single-news.css')
             );
+        } elseif (is_singular('employee')) {
+            wp_enqueue_style( 'jobfair-single-employee',
+            get_template_directory_uri() . '/assets/css/single-employee.css', 
+            array('jobfair-style'), 
+            filemtime(get_template_directory_uri() . '/assets/css/single-employee.css')
+            );
         }
     }
     function add_logo() {
