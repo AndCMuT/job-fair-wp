@@ -2,11 +2,15 @@
     <main>
         <section class="section-search">
             <h1>Найди работу мечты</h1>
-            <form class="form-search" action="">
-                <input class="input-search" type="text" placeholder="Профессия">
-                <input class="input-search" type="text" placeholder="Локация">
-                <input class="input-search" type="text" placeholder="Специализация">
-                <button class="find-btn" type="button">Найти</button>
+            <form class="form-search" action="/search/" method="GET">
+                <input class="input-search" type="text" name="profession" placeholder="Профессия">
+                <select class="input-search" name="location">
+                    <option value="">Локация</option>
+                    <option value="архангельская-область">Архангельская область</option>
+                    <option value="krasnodar-krai">Краснодарский край</option>
+                </select>
+                <!-- <input class="input-search" type="text" placeholder="Специализация"> -->
+                <button class="find-btn" type="submit">Найти</button>
             </form>
         </section>
         <section class="section__our-employees">
