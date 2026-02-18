@@ -6,8 +6,30 @@
                 <input class="input-search" type="text" name="profession" placeholder="Профессия">
                 <select class="input-search" name="location">
                     <option value="">Локация</option>
-                    <option value="архангельская-область">Архангельская область</option>
-                    <option value="krasnodar-krai">Краснодарский край</option>
+
+                    <?php
+                    $locations = get_terms([
+                        'taxonomy' => 'location',
+                        'hide_empty' => false,
+                    ]);
+
+                    if (!is_wp_error( $locations )) :
+                        foreach ($locations as $location) :
+                            $selected = (
+                                isset($_GET['location']) &&
+                                $_GET['location'] === $locations->slug 
+                            ) ? 'selected' : '';
+                            ?>
+                            <option value="<?php echo esc_attr($location->slug); ?>" <?php echo $selected; ?>>
+                                <?php echo esc_html($location->name); ?>
+                            </option>
+                            <?php
+                        endforeach;
+                    endif;
+                    ?>
+                    
+                    <!-- <option value="архангельская-область">Архангельская область</option>
+                    <option value="krasnodar-krai">Краснодарский край</option> -->
                 </select>
                 <!-- <input class="input-search" type="text" placeholder="Специализация"> -->
                 <button class="find-btn" type="submit">Найти</button>
@@ -19,7 +41,7 @@
                 <?php 
                     $employees = new WP_Query([
                         'post_type' => 'employee',
-                        'post_per_page' => 4,
+                        'posts_per_page' => 3,
                         'orderby' => 'date',
                         'order' => 'DESC'
                     ]);
@@ -33,6 +55,7 @@
                     ?>
                     
                         <div class="employee-card">
+                            
                             <div class="employee-header">
                                 <a href="<?php the_permalink(); ?>">
                                     <?php the_post_thumbnail( 'thumbnail', ['class' => 'img-employee']); ?>
@@ -67,7 +90,7 @@
             // Создаём запрос на вакансии
             $vacancies = new WP_Query([
                 'post_type'      => 'vacancy', // тип записи
-                'posts_per_page' => 6,         // сколько выводить
+                'posts_per_page' => 8,         // сколько выводить
                 'orderby'        => 'date',    // сортировка
                 'order'          => 'DESC'     // сначала новые
             ]);

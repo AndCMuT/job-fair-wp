@@ -108,7 +108,7 @@ function jobfair_news_shortcode($atts) {
     $paged = max(1, get_query_var('paged'), get_query_var('page'));
     $query = new WP_Query([
         'post_type' => 'news',
-        'post_per_page' => (int) $atts['count'],
+        'posts_per_page' => (int) $atts['count'],
         'paged' => $paged,
     ]);
 
@@ -124,10 +124,10 @@ function jobfair_news_shortcode($atts) {
                             <?php the_post_thumbnail('medium'); ?>
                         </a>
                     </div>
-                    <?php endif; ?>
+                <?php endif; ?>
                 <div class="container-title-excerpt">
                     <h3>
-                        <a href="<?php the_permalink(  ); ?>"><?php the_title( ); ?> </a>
+                        <a href="<?php the_permalink(  ); ?>"><?php the_title( ); ?></a>
                     </h3>
                     <?php the_excerpt(  ); ?>
                 </div>

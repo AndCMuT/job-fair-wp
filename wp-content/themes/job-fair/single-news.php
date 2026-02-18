@@ -4,7 +4,7 @@
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
         <article class="news-container">
             <h2 class="news-title"><?php the_title(); ?></h2>
-
+            <?php phpinfo() ?>
             <div class="news-content">
                 <?php the_content(); ?>
             </div>
