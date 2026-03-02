@@ -4,7 +4,6 @@
                 <p>Разработано студентом МВЕК ЭДиС 233-2 Сметаниным Андреем Витальевичем</p>
             </div>
         </footer>
-    </main>
     <?php wp_footer(  ); ?>
     <div class="modal-overlay" id="apply-modal" aria-hidden="true">
         <div class="modal-window" role="dialog" aria-modal="true" aria-labelledby="apply-modal-title">

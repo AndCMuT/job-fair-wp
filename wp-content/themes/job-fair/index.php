@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php get_header(); 
+/*
+Template Name: Главная
+*/
+?>
     <main>
         <section class="section-search">
             <h1>Найди работу мечты</h1>
@@ -136,4 +140,5 @@
             endif;
             ?>
         </section>
+    </main>
 <?php get_footer(); ?>

@@ -53,17 +53,15 @@
             'footer-menu' => 'Нижняя область'
         ]);
     }
+
 // Добавляем классы для тега <li>
     function job_add_menu_classes($classes) {
         $classes[] = 'nav-item';
-        // if (in_array('current-menu-item', $classes)) {
-        //     $classes[] = 'active';
-        // }
-
         return $classes;
     }
     add_filter( 'nav_menu_css_class', 'job_add_menu_classes', 10, 1);
-// Добавляем классы для тега <li>
+    
+// Добавляем классы для тега <a>
     function add_link_classes($atts) {
         $atts['class'] = 'nav-link';
         return $atts;
@@ -86,7 +84,7 @@
     'jobfair-modal',
     get_template_directory_uri() . '/assets/JS/modal.js',
     [],
-    fileatime(get_template_directory() . '/assets/JS/modal.js'),
+    filemtime(get_template_directory() . '/assets/JS/modal.js'),
     true
     );
 ?>
