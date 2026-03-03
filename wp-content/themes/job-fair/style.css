@@ -166,11 +166,11 @@ header {
 
 .section__our-employees {
     width: 95%;
-    height: 550px;
+    /* height: 550px; */
     margin: 0 auto;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: start; */
 }
 .section-header {
     margin: 20px 75px;
@@ -178,22 +178,26 @@ header {
     letter-spacing: 3px;
 }
 .employees-container {
-    width: 100%;
+    /* width: 100%;
     padding: 10px;
     display: flex;
     flex-direction: row;
     gap: 3%;
-    align-items: center;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
 }
+
 .employee-card {
-    width: 35%;
-    min-height: 450px;
-    padding: 10px;
+    /* width: 35%;
+    min-height: 450px; */
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 3%;
+    /* gap: 3%; */
     background-color: #fff;
     border-radius: 7px;
     box-shadow: 0 0 4px 4px #f9741685;
@@ -220,8 +224,6 @@ header {
     margin-bottom: 5px;
 }
 .img-employee {
-    /* width: 150px;
-    max-height: 150px; */
     border-radius: 100px;
 }
 .specialization {
@@ -471,6 +473,46 @@ body.modal-open {
     }
 }
 
+.comment-list a {
+    background-color: #cccccc;
+    border-radius: 10px;
+    padding: 0px 10px;
+    color: #000;
+}
+
+.reply a {
+    background-color: #ffdede;
+    font-size: large;
+}
+.comment-form a {
+    background-color: #cccccc;
+    border-radius: 10px;
+    padding: 0px 10px;
+    color: #000;
+}
+.form-submit input {
+    align-self: center;
+    width: 150px;
+    height: 35px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    color: #1E3A8A;
+    background-color: #F97316;;
+    font-size: larger;
+    font-weight: 400;
+    box-shadow: 0 0 4px 4px rgba(117, 117, 117, 0.349);
+    &:hover {
+        cursor: pointer;
+        background-color: #ff7d20;
+        box-shadow: 0 0 5px 5px rgba(97, 97, 97, 0.404)
+    }
+}
+
+.comment-form-comment {
+    display: flex;
+    flex-direction: column;
+}
 @media (max-width: 1024px) {
     .employees-info{
         display: none;

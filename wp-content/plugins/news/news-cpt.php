@@ -28,7 +28,7 @@ function jobfair_register_news_cpt() {
         'public' => true,
         'menu_icon' => 'dashicons-text-page',
         'has_archive' => true,
-        'supports' => ['title', 'editor', 'thumbnail', 'excerpt', 'author'],
+        'supports' => ['title', 'editor', 'thumbnail', 'excerpt', 'author', 'comments'],
         'rewrite' => ['slug' => 'news'],
         'show_in_rest' => 'true',
     ]);
@@ -114,11 +114,11 @@ function jobfair_news_shortcode($atts) {
 
     ob_start();
 
-    if ($query->have_posts(  )) :
-        while ($query->have_posts(  )) : $query->the_post(  );
+    if ($query->have_posts()) :
+        while ($query->have_posts()) : $query->the_post();
             ?>
             <div class="news-item">
-                <?php if (has_post_thumbnail( )) : ?>
+                <?php if (has_post_thumbnail()) : ?>
                     <div class="news-thumb">
                         <a href="<?php the_permalink(); ?>">
                             <?php the_post_thumbnail('medium'); ?>
@@ -127,9 +127,9 @@ function jobfair_news_shortcode($atts) {
                 <?php endif; ?>
                 <div class="container-title-excerpt">
                     <h3>
-                        <a href="<?php the_permalink(  ); ?>"><?php the_title( ); ?></a>
+                        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                     </h3>
-                    <?php the_excerpt(  ); ?>
+                    <?php the_excerpt(); ?>
                 </div>
             </div>
             <?php

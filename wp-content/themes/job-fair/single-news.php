@@ -13,9 +13,13 @@
                 <p><strong>Автор:</strong> <?php echo esc_html(get_the_author()); ?></p>
                 <p><strong>Источник:</strong> <?php echo esc_html(get_post_meta(get_the_ID(), 'news_source', true)); ?></p>
             </div>
+            <div class="comments-area">
+                <?php comments_template(); ?>
+            </div>
         </article>
 
     <?php endwhile; endif; ?>
+
 </main>
 
 <?php get_footer(); ?>

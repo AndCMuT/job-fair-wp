@@ -114,3 +114,57 @@ function jobfair_save_employee_fields($post_id) {
     }
 }
 add_action('save_post_employee', 'jobfair_save_employee_fields');
+
+function jobfair_employee_shortcode() {
+    $atts = shortcode_atts( [
+        'count' => 6
+    ], $atts);
+    $employees = new WP_Query([
+        'post_type' => 'employee',
+        'posts_per_page' => (int) $atts['count'],
+        'orderby' => 'date',
+        'order' => 'DESC'
+    ]);
+
+    ob_start();
+
+    if ($employees->have_posts()) :
+        while ($employees->have_posts()) : $employees->the_post();
+            $specialization = get_post_meta(get_the_ID(), 'specialization', true);
+            $work_exp = get_post_meta(get_the_ID(), 'work_exp', true);
+            $services = get_post_meta(get_the_ID(), 'services', true);
+            $position = get_the_terms(get_the_ID(), 'position', true);
+    ?>
+    
+        <div class="employee-card">
+            
+            <div class="employee-header">
+                <a href="<?php the_permalink(); ?>">
+                    <?php the_post_thumbnail( 'thumbnail', ['class' => 'img-employee']); ?>
+                </a>
+                <h3 class="employees-name">
+                    <a class="employee-link" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                </h3>
+                <p class="position"><?php echo esc_html($position[0]->name); ?></p>
+            </div>
+            <div class="employees-info">
+                <p class="specialization"><strong>Специализация: </strong><?php echo esc_html($specialization) ?></p>
+                <p class="work_exp"><strong>Опыт: </strong><?php echo esc_html($work_exp) ?></p>
+            </div>
+            <div class="service-btn-container">
+                <button class="service-btn">Выбрать услугу</button>
+            </div>
+        </div>
+        <?php
+        endwhile;
+        wp_reset_postdata();
+    else :
+        echo '<p>Пока нет сотрудников</p>';
+    endif;
+    ?>
+    </div>
+    <?php
+return ob_get_clean();
+}
+
+add_shortcode( 'employees_list', 'jobfair_employee_shortcode');

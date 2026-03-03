@@ -33,6 +33,13 @@
             array('jobfair-style'), 
             filemtime(get_template_directory_uri() . '/assets/css/single-employee.css')
             );
+        } elseif (is_page_template('about.php')) {
+            wp_enqueue_style(
+            'jobfair-about-page',
+            get_template_directory_uri() . '/assets/css/about.css',
+            array('jobfair-style'),
+            filemtime(get_template_directory() . '/assets/css/about.css')
+        );
         }
     }
     function add_logo() {
