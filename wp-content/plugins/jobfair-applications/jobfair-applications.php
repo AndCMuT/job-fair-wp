@@ -8,18 +8,16 @@
 if ( ! defined('ABSPATH') ) {
     exit;
 }
-register_activation_hook(__FILE__, 'jobfair_create_applications_table');
+register_activation_hook(__FILE__, 'jobfair_create_applications_table'); //хук активации
 
-error_log('TEST LOG WORKS');
-
-function jobfair_create_applications_table() {
+function jobfair_create_applications_table() { //функция создания БД
     global $wpdb;
 
-    $table_name = $wpdb->prefix . 'jobfair_applications';
-    $charset_collate = $wpdb->get_charset_collate();
-
+    $table_name = $wpdb->prefix . 'jobfair_applications'; //имя таблицы с префиксом сайта
+    $charset_collate = $wpdb->get_charset_collate(); //получаем настройки кодировки
+    //запрос на создание таблицы
     $sql = "CREATE TABLE $table_name (
-        id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+        id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT, 
         vacancy_id BIGINT UNSIGNED NOT NULL,
         name VARCHAR(255) NOT NULL,
         email VARCHAR(255) NOT NULL,
@@ -29,16 +27,15 @@ function jobfair_create_applications_table() {
         PRIMARY KEY (id)
         ) $charset_collate;";
 
-    require_once ABSPATH . 'wp-admin/includes/upgrade.php';
-    dbDelta($sql);
+    require_once ABSPATH . 'wp-admin/includes/upgrade.php'; //подключаем файл с функцией dbDelta
+    dbDelta($sql); // обновляет таблицу если она уже есть
 }
+//AJAX обработчики
+add_action('wp_ajax_jobfair_submit_application', 'jobfair_submit_application');  //для авторизированных пользователей
+add_action('wp_ajax_nopriv_jobfair_submit_application', 'jobfair_submit_application'); //для гостей
 
-add_action('wp_ajax_jobfair_submit_application', 'jobfair_submit_application');
-add_action('wp_ajax_nopriv_jobfair_submit_application', 'jobfair_submit_application');
-
-function jobfair_submit_application() {
+function jobfair_submit_application() { //функция обработки полученных данных
     global $wpdb;
-    error_log('AJAX handler started');
     $table = $wpdb->prefix . 'jobfair_applications';
 
     $data = [
@@ -51,7 +48,7 @@ function jobfair_submit_application() {
 
     $result = $wpdb->insert($table, $data);
 
-    if ($result) {
+    if ($result) { //ответ будет отправлен в modal.js
         wp_send_json([
             'success' => true,
             'message' => 'Отклик успешно отправлен'
@@ -65,7 +62,7 @@ function jobfair_submit_application() {
 
 }
 
-add_action('admin_menu', 'jobfair_add_application_page');
+add_action('admin_menu', 'jobfair_add_application_page'); //добавление в меню в админ панели
 
 function jobfair_add_application_page() {
     add_menu_page(
@@ -79,14 +76,13 @@ function jobfair_add_application_page() {
     );
 }
 
-function jobfair_render_application_page() {
+function jobfair_render_application_page() { //функция вывода страницы
+
     global $wpdb;
-
     $table = $wpdb->prefix . 'jobfair_applications';
-    $applications = $wpdb->get_results("SELECT * FROM $table ORDER BY created_at DESC");
+    $applications = $wpdb->get_results("SELECT * FROM $table ORDER BY created_at DESC"); //получаем отклики из БД
 
-
-    if (isset($_GET['delete'])) {
+    if (isset($_GET['delete'])) { //удаление отклика
     $wpdb->delete(
         $table,
         ['id' => intval($_GET['delete'])],
@@ -98,12 +94,12 @@ function jobfair_render_application_page() {
     echo '<div class="wrap">';
     echo '<h1>Отклики на вакансии</h1>';
 
-    if (empty($applications)) {
+    if (empty($applications)) { //условие если откликов нет
         echo '<p>Откликов пока нет.</p>';
         return;
     }
-
-    echo '<table class="widefat fixed striped">';
+    //таблица с откликами
+    echo '<table class="widefat fixed striped">'; 
     echo '<thead>
             <tr>
                 <th>ID</th>
@@ -132,7 +128,7 @@ function jobfair_render_application_page() {
                 <em>Вакансия удалена</em>
             <?php endif; ?>
         </td> <?php
-        echo '<td>' . esc_html($app->name) . '</em>';
+        echo '<td>' . esc_html($app->name) . '</td>';
         echo '<td>' . esc_html($app->email) . '</td>';
         echo '<td>' . esc_html($app->about) . '</td>';
         echo '<td><a href="' . esc_url($app->resume) . '" target="_blank">Ссылка</a></td>';

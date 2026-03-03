@@ -378,7 +378,7 @@ footer {
 
 /* =============== modal =============== */
 .modal-overlay {
-    position: fixed;
+    position: fixed; 
     inset: 0;
     background: rgba(0, 0, 0, 0.6);
     display: flex;
@@ -399,8 +399,8 @@ footer {
     padding: 24px;
     border-radius: 8px;
     position: relative;
-    transform: translateY(-20px);
-    transition: transform 0.3 ease;
+    transform: translateY(-300px);
+    transition: transform 0.3s ease;
 }
 .modal-overlay.is-open .modal-window {
     transform: translateY(0);
