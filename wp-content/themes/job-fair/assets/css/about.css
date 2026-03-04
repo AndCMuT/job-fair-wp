@@ -8,3 +8,36 @@ main {
 h2 {
     margin: 10px;
 }
+form {
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px 4px rgba(97, 97, 97, 0.404);
+}
+form p, label {
+    margin: 5px;
+}
+.wpcf7-email, .wpcf7-text {
+    min-height: 25px;
+    border-radius: 7px;
+    box-shadow: 0 0 4px 4px rgba(97, 97, 97, 0.404);
+    border: none;
+}
+.wpcf7-submit {
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    color: #1E3A8A;
+    background-color: #F97316;;
+    font-size: larger;
+    font-weight: 400;
+    box-shadow: 0 0 4px 4px rgba(97, 97, 97, 0.404);
+    &:hover {
+        cursor: pointer;
+        background-color: #ff7d20;
+        box-shadow: 0 0 5px 5px rgba(97, 97, 97, 0.404)
+    }
+}
