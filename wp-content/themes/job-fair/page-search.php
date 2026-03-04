@@ -4,7 +4,7 @@ get_header();
 
 $args = [
     'post_type' => 'vacancy',
-    'posts_per_page' => 10,
+    'posts_per_page' => 100,
     'orderby' => 'date',
     'order' => 'DESC'
 ];

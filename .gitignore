@@ -2,3 +2,5 @@
 wp-config.php
 node_modules
 db_data
+docker-compose-prod.yml
+docker-compose.yml

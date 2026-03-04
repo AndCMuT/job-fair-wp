@@ -19,7 +19,7 @@ Template Name: Главная
                         foreach ($locations as $location) :
                             $selected = (
                                 isset($_GET['location']) &&
-                                $_GET['location'] === $locations->slug 
+                                $_GET['location'] === $location->slug 
                             ) ? 'selected' : '';
                             ?>
                             <option value="<?php echo esc_attr($location->slug); ?>" <?php echo $selected; ?>>
