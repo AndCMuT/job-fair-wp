@@ -20,14 +20,16 @@ form p, label {
     margin: 5px;
 }
 .wpcf7-email, .wpcf7-text {
-    min-height: 25px;
+    min-height: 35px;
     border-radius: 7px;
     box-shadow: 0 0 4px 4px rgba(97, 97, 97, 0.404);
     border: none;
+    margin: 10px;
 }
 .wpcf7-submit {
     width: 120px;
     height: 30px;
+    margin: 10px;
     border: none;
     border-radius: 10px;
     color: #1E3A8A;
